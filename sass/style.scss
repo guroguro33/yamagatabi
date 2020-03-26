@@ -1,0 +1,576 @@
+// resetCSS
+html,body,div,span,iframe,h1,h3,h3,h4,h5,p,a,img,ul,ol,li,dt,dd,table,tr,th,td,tbody,footer,header,main,nav,section,img,figure,input,textarea {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-weight: normal;
+	list-style: none;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol, ul {
+  list-style: none;
+  list-style-type: none;
+}
+body {
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+  font-family: "Noto Sans JP", "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+.wrap{
+  margin: 0 auto;
+  width: 1024px;
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// ヘッダー
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+header{
+  height: 100px;
+  background: #F2F2F2;
+  .wrap{
+    display: flex;
+    height: 100px;
+    align-items: center;
+  }
+  .logo{
+    margin-right: auto;
+    a{
+      display: flex;
+      align-items: center;
+      font-size: 20px;
+      color: #707070;
+      img{
+        margin-right: 10px;
+      }
+    }
+  }
+  .nav-menu{
+    ul{
+      display: flex;
+      li:not(:last-of-type){
+        margin-right: 50px;
+      }
+      a{
+        color: #707070;
+
+      }
+    }
+  }
+}
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// マイページメニュー
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+h3{
+  margin-bottom: 30px;
+  padding-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  color: black;
+}
+.mypage-menu{
+  .menu-list{
+    display: flex;
+    margin: 0 auto;
+    width: 700px;
+    justify-content: center;
+    background: #F2F2F2;
+  }
+  a{
+    margin-right: 30px;
+    font-size: 18px;
+    color: black;
+    &:hover{
+      opacity: 0.6;
+    }
+  }
+}
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// サイドバー
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.sidebar{
+  padding: 33px 13px;
+  width: 20%;
+  background: #DAD9D9;
+  .count{
+    margin-bottom: 20px;
+    color: #707070;
+  }
+  .count-total{
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .count-page{
+    font-size: 16px;
+  }
+  .sort{
+    color: #707070;
+    p{
+      margin-bottom: 10px;
+    }
+    select{
+      margin-bottom: 20px;
+      width: 150px;
+      height: 32px;
+    }
+    input{
+      display: block;
+      margin-top: 10px;
+      padding: 6px 58px;
+      border: solid 1px #707070;
+      border-radius: 10px;
+      cursor: pointer;
+      &:hover{
+        background: #707070;
+        color: #F2F2F2;
+      }
+    }
+  }
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// フッター
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+footer{
+  width: 100%;
+  height: 100px;
+  background: #F2F2F2;
+  line-height: 100px;
+  color: #707070;
+  text-align: center;
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// index
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// メインコンテンツ
+.top-img{
+  position: relative;
+  height: 200px;
+  background: url(../img/cherry.jpg) no-repeat center;
+  background-size: cover;
+  text-align: center;
+  color: #FAFAFA;
+  h1{
+    line-height: 200px;
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 2.1px;
+    span{
+      font-size: 80px;
+    }
+  }
+}
+main{
+  text-align: center;
+}
+.main-content{
+  display: flex;
+  margin: 50px auto;
+  .content{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .card{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: calc(50% - 30px);
+    max-height: 160px;
+    height: 100%;
+    border: solid 1px #707070;
+    .spot-img{
+      margin-right: 5px;
+      width: 60%;
+    }
+    img{
+      width: 100%;
+      max-height: 130px;
+      height: auto;
+      vertical-align: bottom;
+    }
+    .desc{
+      p{
+        margin-bottom: 5px;
+        font-size: 16px;
+        color: #707070;
+      }
+      .spot-name{
+        font-size: 26px;
+      }
+      .review-count{
+        margin-top: 18px;
+        padding: 3px;
+        border: solid 1px #707070;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+// ページネーション
+.pagination{
+  padding-bottom: 30px;
+  ul{
+    display: flex;
+    justify-content: center;
+    font-size: 22px;
+    a{
+      padding: 3px 10px;
+      border: solid 1px #707070;
+      color: #707070;
+      &:last-of-type{
+        margin-right: 5px;
+      }
+      &:hover{
+        background: #707070;
+        color: #F2F2F2;
+      }
+    }
+  }
+  .active a{
+    background: #707070;
+    color: #F2F2F2;
+  }
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// フォーム
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.form-container{
+  margin: 50px auto;
+  color: #707070;
+  .form{
+    margin: 0 auto;
+    padding: 10px 70px 30px;
+    max-width: 400px;
+    width: 100%;
+    border: solid 1px #707070;
+    border-radius: 25px;
+    h2{
+      margin-bottom: 15px;
+      font-size: 32px;
+    }
+    p{
+      margin-bottom: 20px;
+    }
+  }
+  .spot-form{
+    max-width: 600px;
+    padding: 10px 30px 30px;
+    p{
+      margin: 0 100px 20px;
+    }
+    input[type="text"],input[type="password"],select{
+      margin: 0 100px 20px;
+    }
+  }
+  .area-msg{
+    margin-bottom: 15px;
+    color: red;
+    font-size: 20px;
+  }
+  label{
+    p{
+      position: relative;
+      margin-bottom: 10px;
+      text-align: left;
+      font-size: 18px;
+    }
+    .require::after{
+      position: absolute;
+      margin-left: 5px;
+      margin-top: 3px;
+      padding: 1px 3px;
+      border-radius: 5px;
+      font-size: 12px;
+      color: #FFF;
+      background: red;
+    }
+    input[type="text"],input[type="password"],select{
+      display: block;
+      margin-bottom: 20px;
+      padding: 5px 10px;
+      width: 400px;
+      height: 40px;
+      border: 0.5px solid #707070;
+      border-radius: 10px;
+    }
+    textarea{
+      margin-bottom: 20px;
+      padding: 5px 10px;
+      width: 400px;
+      height: 80px;
+      border: 0.5px solid #707070;
+      border-radius: 10px;
+    }
+  }
+  // 画像アップロード
+  .area-pic{
+    display: flex;
+  }
+  .imgDrop-container{
+    padding-right: 15px;
+    width: 33.33%;
+    text-align: left;
+    &:last-child{
+      padding-right: 0;
+    }
+  }
+  .area-drop{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 140px;
+    border: 0.5px solid #707070;
+    border-radius: 10px;
+    line-height: 140px;
+    text-align: center;
+    input[type="file"]{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      cursor: pointer;
+    }
+    img{
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+    }
+  }
+}
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// ボタン
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.btn{
+  display: block;
+  margin: 30px auto 0;
+  width: 180px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #707070;
+  &:hover{
+    background: #707070;
+    color: #FFF;
+    cursor: pointer;
+  }
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// login
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+input[type="checkbox"]{
+  margin-right: 5px;
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+}
+.pass_save{
+  display: block;
+  margin-bottom: 30px;
+  text-align: left;
+}
+.passRemind{
+  margin-top: 10px;
+  a{
+    color: #707070;
+    border-bottom: solid 1px #707070;
+    &:hover{
+      opacity: 0.6;
+    }
+  }
+}
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// withdraw
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.withdraw-msg{
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// mypage
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+  h4{
+    margin-bottom: 30px;
+    font-size: 22px;
+  }
+  .content{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .card{
+    display: flex;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    padding: 15px;
+    width: calc(50% - 30px);
+    max-height: 160px;
+    height: 100%;
+    border: solid 1px #707070;
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+    .spot-img{
+      margin-right: 5px;
+      width: 60%;
+    }
+    img{
+      width: 100%;
+      max-height: 130px;
+      height: auto;
+      vertical-align: bottom;
+    }
+    .desc{
+      p{
+        margin-bottom: 5px;
+        font-size: 16px;
+        color: #707070;
+      }
+      .spot-name{
+        font-size: 26px;
+      }
+      .review-count{
+        margin-top: 18px;
+        padding: 3px;
+        border: solid 1px #707070;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+    }
+  }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// spotDetail
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+.prev{
+  margin: 30px auto;
+  text-align: left;
+  a{
+    color: #707070;
+    &:hover{
+      opacity: 0.6;
+    }
+  }
+}
+.spot-content{
+  display: flex;
+  margin-bottom: 50px;
+  background: #F2F2F2;
+  color: #707070;
+  text-align: left;
+  .content{
+    margin: 0px 70px 34px;
+  }
+}
+.spot-name{
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  .category{
+    padding-right: 50px;
+    line-height: 60px;
+  }
+  h2{
+    margin: 0;
+    font-size: 28px;
+    line-height: 60px;
+  }
+}
+.picture{
+  display: flex;
+  margin-bottom: 47px;
+  &:last-child{
+    padding-right: 0;
+  }
+  .pic-wrap{
+    padding-right: 40px;
+    width: 33.33%;
+    text-align: left;
+    img{
+      width: 100%;
+    }
+  }
+}
+address{
+  font-style: normal;
+  .addr-container{
+    display: flex;
+    margin-bottom: 19px;
+    .addr-item{
+      width: 100px;
+    }
+    .comment-txt{
+      width: calc(100% - 100px);
+    }
+  }
+}
+.review-count{
+  display: block;
+  margin: 18px 0 24px;
+  padding: 8px;
+  width: 160px;
+  border: solid 1px #707070;
+  border-radius: 5px;
+  font-size: 16px;
+  text-align: center;
+}
+.review{
+  display: flex;
+  margin-bottom: 30px;
+  .review-name{
+    margin: 20px;
+  }
+  .review-txt{
+    position: relative;
+    margin: 0 0 0 25px;
+    padding: 10px;
+    width: 80%;
+    background: #DAD9D9;
+    border-radius: 5px;
+    .triangle{
+      position: absolute;
+      top: 20px;
+      left: -28px;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-right: 20px solid #DAD9D9;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid transparent;
+    }
+  }
+}
+.review-post{
+  margin: 0 auto;
+  width: 100%;
+  p{
+    margin-bottom: 15px;
+  }
+  textarea{
+    display: block;
+    padding: 15px;
+    width: 100%;
+    border: solid 0.5px #707070;
+    font-size: 18px;
+  }
+  .btn{
+    background: #DAD9D9;
+    &:hover{
+      background: #707070;
+    }
+  }
+}

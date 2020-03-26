@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="ヤマガタビ">
+    <meta name="keywords" content="">
+    <!-- ファビコン -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <!-- font awesome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+		<!-- CSS -->
+		<link rel="stylesheet" href="css/style.css">
+		<!-- googleフォント -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700&display=swap&subset=japanese" rel="stylesheet">
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
+		<!-- javascript -->
+		<script src="js/script.js" defer></script>
+		
+    <title>ヤマガタビ</title>
+</head>
+<!-- body -->
+<body>
+    <!-- ヘッダー -->
+    <header>
+      <div class="wrap">
+        <div class="logo">
+          <a href="">
+            <img src="./img/logo.svg" alt="ヤマガタビのロゴ">
+            <p class="logo-sub">- 山形のおすすめ旅スポット -</p>
+          </a>
+        </div>
+        <nav class="nav-menu">
+          <ul>
+            <li><a href="">ログイン</a></li>
+            <li><a href="">新規登録</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- メインコンテンツ -->
+    <main>
+
+      <div class="form-container wrap">
+        <form action="" method="post" class="form">
+          <h2 class="title">ユーザーの新規登録</h2>
+          <div class="area-msg">
+            エラーが発生しました
+          </div>
+          <label >
+            <p class="require">ニックネーム</p>
+            <input type="text" name="username">
+          </label>
+          <label >
+            <p class="require">メールアドレス</p>
+            <input type="text" name="email">
+          </label>
+          <label >
+            <p class="require">パスワード<span style="font-size:12px">※英数字６文字以上</span></p>
+            <input type="text" name="pass">
+          </label>
+          <label >
+            <p class="require">パスワード（再入力）</p>
+            <input type="text" name="username">
+          </label>
+          <input type="submit" class="btn" value="登録する">
+        </form>
+      </div>
+
+    </main>
+
+    <!-- フッター -->
+    <footer>
+      <p>COPYRIGHT &#169; kurosuke. ALL RIGHTS RESERVED.</p>
+    </footer>
+
+</body>
+</html>
