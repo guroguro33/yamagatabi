@@ -251,7 +251,7 @@ main{
     padding: 10px 70px 30px;
     max-width: 400px;
     width: 100%;
-    border: solid 1px #707070;
+    background: #eeeeee;
     border-radius: 25px;
     h2{
       margin-bottom: 15px;
@@ -273,8 +273,9 @@ main{
   }
   .area-msg{
     margin-bottom: 15px;
+    text-align: left;
+    font-size: 14px;
     color: red;
-    font-size: 20px;
   }
   label{
     p{
@@ -311,6 +312,10 @@ main{
       border-radius: 10px;
     }
   }
+  label.err input,
+  label.err select{
+    background: #f7dcd9;
+  } 
   // 画像アップロード
   .area-pic{
     display: flex;
@@ -357,6 +362,7 @@ main{
   margin: 30px auto 0;
   width: 180px;
   height: 40px;
+  background: #ccc;
   border-radius: 5px;
   font-size: 18px;
   color: #707070;
