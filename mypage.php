@@ -1,45 +1,13 @@
-<!DOCTYPE html>
-<html lang="ja">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="ヤマガタビ">
-    <meta name="keywords" content="">
-    <!-- ファビコン -->
-    <link rel="shortcut icon" href="favicon.ico">
-    <!-- font awesome -->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
-		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css">
-		<!-- googleフォント -->
-		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700&display=swap&subset=japanese" rel="stylesheet">
-		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
-		<!-- javascript -->
-		<script src="js/script.js" defer></script>
-		
-    <title>スポット登録</title>
-</head>
+<?php
+$siteTitle = "マイページ";
+require('head.php');
+?>
 <!-- body -->
 <body>
     <!-- ヘッダー -->
-    <header>
-      <div class="wrap">
-        <div class="logo">
-          <a href="">
-            <img src="./img/logo.svg" alt="ヤマガタビのロゴ">
-            <p class="logo-sub">- 山形のおすすめ旅スポット -</p>
-          </a>
-        </div>
-        <nav class="nav-menu">
-          <ul>
-            <li><a href="">ログアウト</a></li>
-            <li><a href="">マイページ</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <?php
+    require('header.php');
+    ?>
 
     <!-- メインコンテンツ -->
     <main>
@@ -161,9 +129,9 @@
     </main>
 
     <!-- フッター -->
-    <footer>
-      <p>COPYRIGHT &#169; kurosuke. ALL RIGHTS RESERVED.</p>
-    </footer>
+    <?php
+    require('footer.php');
+    ?>
 
 </body>
 </html>

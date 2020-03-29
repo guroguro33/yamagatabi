@@ -20,7 +20,7 @@ if(!empty($_SESSION['login_date'])){
   }else{
     debug('ログイン有効期限以内です。');
     // 最終ログイン日時を現在時刻に更新
-    $_SESSION['login_date'] = date();
+    $_SESSION['login_date'] = time();
 
     // loginページだった場合はマイページへ遷移する
     if(basename($_SERVER['PHP_SELF']) === 'login.php'){

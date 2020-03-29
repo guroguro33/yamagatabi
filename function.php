@@ -55,8 +55,10 @@ define('MSG02','Emailの形式で入力してください');
 define('MSG03','256文字以内で入力してください');
 define('MSG04','6文字以上で入力してください');
 define('MSG05','半角英数字のみご利用いただけます');
+define('MSG06','すでに登録済みのメールアドレスです');
 define('MSG07','エラーが発生しました。しばらく経ってからやり直してください');
 define('MSG08','メールアドレスまたはパスワードが違います');
+define('MSG09','パスワード（再入力）が一致しません');
 
 //================================
 // グローバル変数
@@ -81,6 +83,34 @@ function validEmail($str, $key){
     $err_msg[$key] = MSG02;
   }
 }
+// バリデーション関数（Email重複チェック）
+function validEmailDup($email){
+  global $err_msg;
+  // 例外処理
+  try {
+    // DBへ接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT count(*) FROM users WHERE email = :email AND delete_flg = 0';
+    $data = array(':email' => $email);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    // クエリ結果の値を取得
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    debug('email重複チェック$resultの値：'.print_r($result,true));
+
+    if(empty(array_shift($result))){
+      debug('emailの重複はありません。');
+    }else{
+      debug('emailの重複あり。');
+      $err_msg['email'] = MSG06;
+    }
+
+  } catch(Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+    $err_msg['common'] = MSG07;
+  }
+}
 // バリデーション関数（最大文字数チェック）
 function validMaxLen($str, $key, $max = 256){
   if(mb_strlen($str) > $max){
@@ -100,6 +130,13 @@ function validHalf($str, $key){
   if(!preg_match(("/^[0-9a-zA-Z]+$/"), $str)){
     global $err_msg;
     $err_msg[$key] = MSG05;
+  }
+}
+// バリデーション関数（同値チェック）
+function validMatch($str1, $str2, $key){
+  if($str1 !==  $str2){
+    global $err_msg;
+    $err_msg[$key] = MSG09;
   }
 }
 
@@ -141,6 +178,7 @@ function queryPost($dbh, $sql, $data){
     debug('クエリに失敗しました。');
     debug('失敗したSQL：'.print_r($stmt,true));
     $err_msg['common'] = MSG07;
+    return 0;
   }else{
     debug('クエリに成功しました。');
     return $stmt;

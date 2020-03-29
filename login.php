@@ -1,5 +1,4 @@
 <?php
-
 // 共通変数・関数ファイルの読込み
 require('function.php');
 
@@ -67,7 +66,7 @@ if(!empty($_POST)){
         // ログイン有効期限（デフォルトを1時間とする）
         $sesLimit = 60 * 60;
         // 最終ログイン日時を現在日時に
-        $_SESSION['login_date'] = date();
+        $_SESSION['login_date'] = time();
 
         // ログイン保持にチェックがある場合
         if($pass_save){
