@@ -59,6 +59,10 @@ define('MSG06','すでに登録済みのメールアドレスです');
 define('MSG07','エラーが発生しました。しばらく経ってからやり直してください');
 define('MSG08','メールアドレスまたはパスワードが違います');
 define('MSG09','パスワード（再入力）が一致しません');
+define('MSG10','電話番号の形式が違います');
+define('MSG11','郵便番号の形式が違います');
+
+define('SUC01','プロフィールを変更しました');
 
 //================================
 // グローバル変数
@@ -139,6 +143,20 @@ function validMatch($str1, $str2, $key){
     $err_msg[$key] = MSG09;
   }
 }
+// バリデーション関数（電話番号チェック）
+function validTel($str, $key){
+  if(!preg_match("/0\d{1,4}\d{1,4}\d{4}/", $str)){
+    global $err_msg;
+    $err_msg[$key] = MSG10;
+  }
+}
+// バリデーション関数（郵便番号チェック）
+function validZip($str, $key){
+  if(!preg_match("/^\d{7}$/", $str)){
+    global $err_msg;
+    $err_msg[$key] = MSG11;
+  }
+}
 
 // エラーメッセージ表示
 function getErrMsg($key){
@@ -184,7 +202,79 @@ function queryPost($dbh, $sql, $data){
     return $stmt;
   }
 }
+// ユーザーデータ取得
+function getUser($u_id){
+  debug('ユーザー情報を取得します。');
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // sql文作成
+    $sql ='SELECT * FROM users WHERE id = :u_id AND delete_flg = 0';
+    $data = array(':u_id'=> $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
 
+    if($stmt){
+      debug('クエリ成功');
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      debug('クエリ失敗');
+      return false;
+    }
+    
+  } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+} 
+//================================
+// その他
+//================================
+// サニタイズ
+function sanitize($str){
+  return htmlspecialchars($str, ENT_QUOTES);
+}
+// フォーム入力保持
+function getFormData($str, $flg = false){
+  if($flg){
+    $method = $_GET;
+  }else{
+    $method = $_POST;
+  }
+
+  global $dbFormData;
+  // ユーザーデータがある場合
+  if(!empty($dbFormData)){
+    // フォームのエラーがある場合
+    if(!empty($err_msg[$str])){
+      // POSTデータがある場合
+      if(isset($method[$str])){ //金額や郵便番号などのフォームで数字や数値の０がはいっている場合もあるので、issetを使う
+        return sanitize($method[$str]);
+      }else{ //POSTがない場合はDBの情報を表示
+        return sanitize($dbFormData[$str]);
+      }
+    }else{ //フォームのエラーがない場合
+      // POSTにデータがあり、DBの情報と違う場合（他のフォームでひっかかっている状態）
+      if(isset($method[$str]) && $method[$str] !== $dbFormData[$str]){
+        return sanitize($method[$str]);
+      }else{ //そもそも変更していない
+        return sanitize($dbFormData[$str]);
+      }
+    }
+  }else{
+    if(isset($method[$str])){
+      return sanitize($method[$str]);
+    }
+  }
+}
+// sessionを1回だけ取得できる
+function getSessionFlash($key){
+  if(!empty($_session[$key])){
+    $data = $_SESSION[$key];
+    $_SESSION[$key] = '';
+    return $data;
+  }
+}
 
 
 ?>

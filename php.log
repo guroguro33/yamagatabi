@@ -1844,3 +1844,1400 @@ Stack trace:
 [30-Mar-2020 11:19:04 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
 [30-Mar-2020 11:19:04 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
 [30-Mar-2020 11:19:04 Asia/Tokyo] デバッグ：マイぺージへ遷移します。
+[30-Mar-2020 14:05:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:10 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:05:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:10 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:05:10 Asia/Tokyo] デバッグ：セッションID：9hl85l5g74i41lrpgsdmi9va7a
+[30-Mar-2020 14:05:10 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585534744
+    [login_limit] => 3600
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:05:10 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585544710
+[30-Mar-2020 14:05:10 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1585538344
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：ログイン有効期限オーバーです。
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：「　ログインページ　
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：セッションID：0l9k8p92260087cisfksrmta6n
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585544711
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[30-Mar-2020 14:05:11 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：「　ログインページ　
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：セッションID：ichgbp7h81sfo3h6v73k9g3l6t
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585544714
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[30-Mar-2020 14:05:14 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:05:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:21 Asia/Tokyo] デバッグ：「　ログインページ　
+[30-Mar-2020 14:05:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:05:21 Asia/Tokyo] デバッグ：セッションID：3465v1p8ghkkadrp8kencfop16
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585544722
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：$_POSTの中身：Array
+(
+    [email] => t02f447f@gmail.com
+    [pass] => 111111
+    [pass_save] => on
+)
+
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [id] => 3
+)
+
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります。
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [login_date] => 1585544722
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[30-Mar-2020 14:05:22 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：セッションID：utcil3560dvv84aj24o9ptn7li
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585544722
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585544724
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588136722
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 11:18:37
+)
+
+[30-Mar-2020 14:05:24 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:05:24 Asia/Tokyo] PHP Warning:  Use of undefined constant getErrMsg - assumed 'getErrMsg' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\yamagatabi\profEdit.php on line 129
+[30-Mar-2020 14:05:24 Asia/Tokyo] PHP Warning:  Illegal string offset 'common' in C:\xampp\htdocs\yamagatabi\profEdit.php on line 129
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：セッションID：1rk9or7bsbp2jt1kjnvp0565bt
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585544724
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585544838
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588136724
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 11:18:37
+)
+
+[30-Mar-2020 14:07:18 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：セッションID：1m0jbpcsck2m9mh1h34e1ubnbt
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585544838
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585544841
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588136838
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:07:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:07:22 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:07:22 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:07:22 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:07:22 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 11:18:37
+)
+
+[30-Mar-2020 14:07:22 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:07:22 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => 
+)
+
+[30-Mar-2020 14:07:22 Asia/Tokyo] PHP Notice:  Undefined index: username in C:\xampp\htdocs\yamagatabi\profEdit.php on line 35
+[30-Mar-2020 14:07:22 Asia/Tokyo] PHP Notice:  Undefined variable:  in C:\xampp\htdocs\yamagatabi\profEdit.php on line 41
+[30-Mar-2020 14:07:22 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：セッションID：lg3jacoqmptr8op1np6hkci8fq
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585544842
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585544914
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588136842
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 11:18:37
+)
+
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => 
+)
+
+[30-Mar-2020 14:08:34 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：セッションID：o411ui4gnmlb0pa3u45b9v3ron
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585544914
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546502
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588136914
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 11:18:37
+)
+
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => 
+)
+
+[30-Mar-2020 14:35:02 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：セッションID：8j9oqqs1ios5dc1ud1q6ksbipe
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546502
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546646
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138502
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 11:18:37
+)
+
+[30-Mar-2020 14:37:26 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：セッションID：d6b24jfamvfekb5gtss70v9l8a
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546646
+    [login_limit] => 2592000
+    [user_id] => 3
+)
+
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546650
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138646
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 11:18:37
+)
+
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：バリデーションOKです。
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:37:30 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：セッションID：mm89mh4vemp68uun9jgp00ls1e
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546650
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546653
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138650
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:37:33 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：セッションID：us94evqp1lak9nfqn67mugk610
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546653
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546661
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138653
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => 
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => 
+)
+
+[30-Mar-2020 14:37:41 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：セッションID：jajtb0cc1uon9gvub14lbnf9ed
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546661
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546807
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138661
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:40:07 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：セッションID：vkhmt5n63gp3a4sc4tfmr0ut2o
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546807
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546810
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138807
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：バリデーションOKです。
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:40:10 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：セッションID：eoqfrvvl6g1hp4hvtg95s5vitj
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546810
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546813
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138810
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:40:13 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:40:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:40:31 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:40:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：セッションID：ddlumejco12eqlnjbqcs0cr3gs
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546813
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546832
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138813
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => 
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => 
+)
+
+[30-Mar-2020 14:40:32 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：セッションID：jva9e15la71l8tgv61u7e107av
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546832
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585546991
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138832
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => torutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutorutoru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => 
+)
+
+[30-Mar-2020 14:43:11 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：セッションID：0rd219qfhr46ck5n15hslst5gh
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585546991
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547218
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588138991
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => 
+)
+
+[30-Mar-2020 14:46:58 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：セッションID：gjn3mii8lfv0d2irsrfjbqin3e
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547218
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547344
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139218
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:49:04 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:49:05 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：セッションID：lu2vcknhhtbhm5tlvm1h4ig859
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547344
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547355
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139344
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：バリデーションOKです。
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:49:15 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：セッションID：akubot4k63du9qqksic93vhh5f
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547355
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547358
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139355
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:49:18 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：セッションID：qd1cj3g4022h9gbqggfuflg0gm
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547358
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547385
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139358
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => １１１１１１１１１１１１１１１
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:49:45 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：セッションID：rukq6fvn768r5dab3kpggf25ih
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547385
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547400
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139385
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:37:30
+)
+
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 0236001111
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：バリデーションOKです。
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:50:00 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：セッションID：emkklsdo37v7d13s0oqcgsrgpv
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547400
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547403
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139400
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 0236001111
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:50:00
+)
+
+[30-Mar-2020 14:50:03 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:50:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:50:20 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：セッションID：t93obda6jm5f1htv2dp9ahmnci
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547403
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547421
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139403
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 0236001111
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:50:00
+)
+
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 
+    [zip] => 111
+    [addr] => 
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:50:21 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:50:21 Asia/Tokyo] PHP Warning:  Use of undefined constant getFormData - assumed 'getFormData' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\yamagatabi\profEdit.php on line 147
+[30-Mar-2020 14:50:21 Asia/Tokyo] PHP Warning:  Illegal string offset 'zip' in C:\xampp\htdocs\yamagatabi\profEdit.php on line 147
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：セッションID：v69smg5r10ojn6uglj4p1rlgvu
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547421
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547652
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139421
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 0236001111
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:50:00
+)
+
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 
+    [zip] => 111
+    [addr] => 
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:54:12 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：セッションID：tuf4hq8baqud05fgn6tj70l5tb
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547652
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547689
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139652
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 0236001111
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:50:00
+)
+
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:54:49 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:55:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:55:03 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:55:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：セッションID：vi08t1dbp5n20jeipc1l3e9rcj
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547689
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547704
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139689
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 0236001111
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:50:00
+)
+
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：バリデーションOKです。
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:55:04 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：セッションID：qi84nqv7hucakrk146h2ovnhb3
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547704
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547706
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139704
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:55:04
+)
+
+[30-Mar-2020 14:55:06 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：セッションID：cnfhf7jhudfrkqm8rlbvnpd1o8
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547706
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547756
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139706
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:55:04
+)
+
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 9999999
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:55:56 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：セッションID：k2e3lr3kv70cb0gbk8me9ioq04
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547756
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547784
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139756
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 
+    [zip] => 0
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:55:04
+)
+
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => toru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：バリデーションOKです。
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:56:24 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：セッションID：1qsei7vlm975gqgf50bn8h60hm
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547784
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547786
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139784
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:24
+)
+
+[30-Mar-2020 14:56:26 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：セッションID：21ggp23cqnkg1j8vu7kq7uqr7l
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547786
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547806
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139786
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => toru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:24
+)
+
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：POST送信があります。
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：POST情報：Array
+(
+    [username] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+)
+
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：バリデーションOKです。
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:56:46 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：セッションID：29ntnnmpo62f6garnpu609kj2k
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547806
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585547808
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139806
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

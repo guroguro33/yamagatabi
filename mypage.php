@@ -9,6 +9,8 @@ require('head.php');
     require('header.php');
     ?>
 
+
+
     <!-- メインコンテンツ -->
     <main>
 
@@ -17,10 +19,10 @@ require('head.php');
         <h3>マイページメニュー</h3>
         <div class="mypage-menu">
           <ul class="menu-list">
-            <li class="list-item"><a href="">おすすめスポット投稿</a></li>
-            <li class="list-item"><a href="">プロフィール編集</a></li>
-            <li class="list-item"><a href="">パスワード変更</a></li>
-            <li class="list-item"><a href="">退会</a></li>
+            <li class="list-item"><a href="spotEdit.php">おすすめスポット投稿</a></li>
+            <li class="list-item"><a href="profEdit.php">プロフィール編集</a></li>
+            <li class="list-item"><a href="passEdit.php">パスワード変更</a></li>
+            <li class="list-item"><a href="withdraw.php">退会</a></li>
           </ul>
         </div>
       </section>
@@ -132,6 +134,3 @@ require('head.php');
     <?php
     require('footer.php');
     ?>
-
-</body>
-</html>
