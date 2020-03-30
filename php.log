@@ -3241,3 +3241,579 @@ Stack trace:
 )
 
 [30-Mar-2020 14:56:48 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：セッションID：iobo3slnmb34o875bnh087renk
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585547808
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556359
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588139808
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:19:19 Asia/Tokyo] PHP Notice:  Undefined variable: dbFormData in C:\xampp\htdocs\yamagatabi\passEdit.php on line 19
+[30-Mar-2020 17:19:19 Asia/Tokyo] デバッグ：取得したユーザー情報：
+[30-Mar-2020 17:19:20 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：セッションID：n6hu4pghbdgo266hacqmh57ab2
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556359
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556382
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148359
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:19:42 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：セッションID：q9e8rcfvc2595dtjrrcoehoj59
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556382
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556772
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148382
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:26:12 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:26:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:14 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:26:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：セッションID：fbonp8v5uapcn1o1vgfkn9d9jh
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556772
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556775
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148772
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 
+    [pass_new] => 
+    [pass_new_re] => 
+)
+
+[30-Mar-2020 17:26:15 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：セッションID：5evrq1k5c0qefh3k17mqdqt65n
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556775
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556788
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148775
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 11
+    [pass_new] => 11
+    [pass_new_re] => 11
+)
+
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：未入力チェックOK。
+[30-Mar-2020 17:26:28 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：セッションID：anvm99p4lauspatuboqob5ubhs
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556788
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556796
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148788
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 111111
+    [pass_new] => 11
+    [pass_new_re] => 11
+)
+
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：未入力チェックOK。
+[30-Mar-2020 17:26:36 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：セッションID：c4po4ckktaj1437iu8plvro6cu
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556796
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556807
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148796
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 111111
+    [pass_new] =>           <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>          <div class="area-msg">             <?php echo getErrMsg('pass_old');  ?>           </div>
+    [pass_new_re] => 11
+)
+
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：未入力チェックOK。
+[30-Mar-2020 17:26:47 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：セッションID：ae1a39tp37ge47ne6o17b0upc0
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556807
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556817
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148807
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 111111
+    [pass_new] => 111111
+    [pass_new_re] => 111111
+)
+
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：未入力チェックOK。
+[30-Mar-2020 17:26:57 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：セッションID：n9m08i99r17bat6a8k3rgiur3m
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556817
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556825
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148817
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 111111
+    [pass_new] => 2222222
+    [pass_new_re] => 111111
+)
+
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：未入力チェックOK。
+[30-Mar-2020 17:27:05 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:27:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:27:12 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:27:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:27:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:27:12 Asia/Tokyo] デバッグ：セッションID：co7nkbrjr1k24h4tttpcf2badm
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556825
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556833
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148825
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 111111
+    [pass_new] => 2222222
+    [pass_new_re] => 222222
+)
+
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：未入力チェックOK。
+[30-Mar-2020 17:27:13 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：セッションID：8lr4l2kbepspoheai41qug9ij5
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556833
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556845
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148833
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WiZS1c/ATx2TEXcGO1bu9e/vS0KVeNoM8x4w4g0MpQ7yzbys7JIgG
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 14:56:46
+)
+
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 111111
+    [pass_new] => 222222
+    [pass_new_re] => 222222
+)
+
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：未入力チェックOK。
+[30-Mar-2020 17:27:25 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[30-Mar-2020 17:27:26 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:27:26 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:27:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:27:28 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:27:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:27:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:27:28 Asia/Tokyo] デバッグ：セッションID：mmjnbmmpdu5daqjhmcfmkhunl3
+[30-Mar-2020 17:27:28 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556845
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585556849
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148845
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$.soWeB.E.LKjrpQzfO6/uu2zP6iXJs9mKumN3K4U6UZVPN3L0gbsm
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 17:27:26
+)
+
+[30-Mar-2020 17:27:29 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：セッションID：h57v1gl9drq54rd08enknoae8t
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585556849
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585557277
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588148849
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$.soWeB.E.LKjrpQzfO6/uu2zP6iXJs9mKumN3K4U6UZVPN3L0gbsm
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 17:27:26
+)
+
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：post送信があります。
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => 222222
+    [pass_new] => 111111
+    [pass_new_re] => 111111
+)
+
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：未入力チェックOK。
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[30-Mar-2020 17:34:37 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:34:47 Asia/Tokyo] デバッグ：メールを送信しました。
+[30-Mar-2020 17:34:48 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：セッションID：994k0tjhtskmcgc6tfo2h9fdrs
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585557277
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585557291
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588149277
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：クエリに成功しました。
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：クエリ成功
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$FI2UTuHkht3dCn7W0ol/N.oTeLngU4enJUbzg6OU5xD0zJQXxp/F2
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 17:34:37
+)
+
+[30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

@@ -61,6 +61,8 @@ define('MSG08','メールアドレスまたはパスワードが違います');
 define('MSG09','パスワード（再入力）が一致しません');
 define('MSG10','電話番号の形式が違います');
 define('MSG11','郵便番号の形式が違います');
+define('MSG12','古いパスワードが違います');
+define('MSG13','古いパスワードと同じです');
 
 define('SUC01','プロフィールを変更しました');
 
@@ -157,6 +159,15 @@ function validZip($str, $key){
     $err_msg[$key] = MSG11;
   }
 }
+// パスワードチェック
+function validPass($str, $key){
+  // 半角英数字チェック
+  validHalf($str, $key);
+  // 最大文字数チェック
+  validMaxLen($str, $key);
+  // 最小文字数チェック
+  validMinLen($str, $key);
+}
 
 // エラーメッセージ表示
 function getErrMsg($key){
@@ -226,7 +237,29 @@ function getUser($u_id){
   } catch (Exception $e){
     error_log('エラー発生：'.$e->getMessage());
   }
-} 
+}
+//================================
+// メール送信
+//================================
+function sendMail($from, $to, $subject, $comment){
+  if(!empty($to) && !empty($subject) && !empty($comment)){
+    //文字化けしないように設定（お決まりパターン）
+    mb_language("japanese"); //現在使っている言語を設定する
+    mb_internal_encoding("UTF-8"); //内部の日本語をどうエンコーディングするかを設定
+
+    // メール送信（結果はboolean)
+    $result = mb_send_mail($to, $subject, $comment, "From: ".$from);
+    // 送信結果を判定
+    if($result){
+      debug('メールを送信しました。');
+    }else{
+      debug('【エラー発生】メールの送信に失敗しました。');
+    }
+  }else{
+    debug('【エラー発生】メールの送信の情報不足です。');
+  }
+}
+
 //================================
 // その他
 //================================
