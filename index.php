@@ -5,22 +5,9 @@ require('head.php');
 <!-- body -->
 <body>
     <!-- ヘッダー -->
-    <header>
-      <div class="wrap">
-        <div class="logo">
-          <a href="">
-            <img src="./img/logo.svg" alt="ヤマガタビのロゴ">
-            <p class="logo-sub">- 山形のおすすめ旅スポット -</p>
-          </a>
-        </div>
-        <nav class="nav-menu">
-          <ul>
-            <li><a href="">ログイン</a></li>
-            <li><a href="">新規登録</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+    <?php
+    require('header.php');
+    ?>
 
     <!-- メインコンテンツ -->
     <main>
@@ -139,9 +126,6 @@ require('head.php');
     </main>
 
     <!-- フッター -->
-    <footer>
-      <p>COPYRIGHT &#169; kurosuke. ALL RIGHTS RESERVED.</p>
-    </footer>
-
-</body>
-</html>
+    <?php
+    require('footer.php');
+    ?>

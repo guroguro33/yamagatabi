@@ -1,4 +1,13 @@
 <?php
+
+// 共通変数・関数ファイルの読込み
+require('function.php');
+
+
+
+?>
+
+<?php
 $siteTitle = "マイページ";
 require('head.php');
 ?>
@@ -8,8 +17,6 @@ require('head.php');
     <?php
     require('header.php');
     ?>
-
-
 
     <!-- メインコンテンツ -->
     <main>

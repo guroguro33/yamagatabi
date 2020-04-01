@@ -69,7 +69,7 @@ if(!empty($_POST)){
 
         // クエリ成功の場合
         if($stmt){
-          $_SESSION['msg_success'] = SUC01;
+          $_SESSION['msg_success'] = SUC02;
 
           // メールを送信
           $username = $userData['user_name'];
@@ -98,7 +98,7 @@ EOT;
     }
   }
 }
-debug('パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
+debug('パスワード変更画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
 <?php
 $siteTitle = 'パスワード変更';

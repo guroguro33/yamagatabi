@@ -63,8 +63,13 @@ define('MSG10','電話番号の形式が違います');
 define('MSG11','郵便番号の形式が違います');
 define('MSG12','古いパスワードが違います');
 define('MSG13','古いパスワードと同じです');
+define('MSG14','文字で入力してください');
+define('MSG15','認証キーが正しくありません');
+define('MSG16','有効期限が切れています');
 
 define('SUC01','プロフィールを変更しました');
+define('SUC02','パスワードを変更しました');
+define('SUC03','メールを送信しました');
 
 //================================
 // グローバル変数
@@ -159,6 +164,14 @@ function validZip($str, $key){
     $err_msg[$key] = MSG11;
   }
 }
+// バリデーション関数（固定長チェック）
+function validLength($str, $key, $len = 8){
+  if(mb_strlen($str) !== $len){
+    global $err_msg;
+    $err_msg[$key] = $len.MSG14;
+  }
+}
+
 // パスワードチェック
 function validPass($str, $key){
   // 半角英数字チェック
@@ -307,6 +320,15 @@ function getSessionFlash($key){
     $_SESSION[$key] = '';
     return $data;
   }
+}
+// 認証キー生成
+function makeRandKey($length = 8){
+  static $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  $str = '';
+  for ($i = 0; $i < $length; $i++){
+    $str .= $chars[mt_rand(0, 61)];
+  }
+  return $str;
 }
 
 

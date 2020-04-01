@@ -13,14 +13,10 @@
           ?>
             <li><a href="login.php">ログイン</a></li>
             <li><a href="signup.php">新規登録</a></li>
-            <?php
-           else:
-            ?>
+          <?php else: ?>
             <li><a href="logout.php">ログアウト</a></li>
             <li><a href="mypage.php">マイページ</a></li>
-          <?php
-           endif;
-          ?>
+          <?php endif; ?>
           </ul>
         </nav>
       </div>

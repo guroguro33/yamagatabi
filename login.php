@@ -137,7 +137,7 @@ require('head.php');
             <input type="checkbox" name="pass_save">次回ログインを省略する
           </label>
           <input type="submit" class="btn" value="ログイン">
-          <p class="passRemind">パスワードを忘れた方は<a href="passRemindSend.html">こちら</a>
+          <p class="passRemind">パスワードを忘れた方は<a href="passRemindSend.php">こちら</a>
           </p>
         </form>
       </div>

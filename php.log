@@ -3817,3 +3817,1133 @@ Stack trace:
 )
 
 [30-Mar-2020 17:34:51 Asia/Tokyo] デバッグ：パスワード再発行画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：「　プロフィール編集ページ　
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：セッションID：vajdh6v9motbv33enqf6foq8t0
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585557291
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600424
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588149291
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：クエリに成功しました。
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：クエリ成功
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [tel] => 0230000000
+    [zip] => 1111111
+    [addr] => 日本
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$FI2UTuHkht3dCn7W0ol/N.oTeLngU4enJUbzg6OU5xD0zJQXxp/F2
+    [login_time] => 2020-03-30 11:18:38
+    [delete_flg] => 0
+    [create_date] => 2020-03-30 11:18:38
+    [update_date] => 2020-03-30 17:34:37
+)
+
+[31-Mar-2020 05:33:44 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：「　ログアウトページ　
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：セッションID：l657vip4oinv1to01997868so3
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [login_date] => 1585600424
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600428
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588192424
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：ログアウトします。
+[31-Mar-2020 05:33:48 Asia/Tokyo] デバッグ：session_destroy後のセッションID:
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：session_destroy後の$_SESSIONの値：Array
+(
+    [login_date] => 1585600424
+    [login_limit] => 2592000
+    [user_id] => 3
+    [msg_success] => プロフィールを変更しました
+)
+
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：ログインページへ遷移します。
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：「　ログインページ　
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：セッションID：0vui2s5g7nrjl9f8amg1u4maeh
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600429
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[31-Mar-2020 05:33:49 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：「　ログインページ　
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：セッションID：m3erp8e0l46slhd8i4krqth2eo
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600513
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[31-Mar-2020 05:35:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:35:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:35:17 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 05:35:17 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:35:17 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:35:17 Asia/Tokyo] デバッグ：セッションID：98os92h0tir2to9omohkn1obq2
+[31-Mar-2020 05:35:17 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[31-Mar-2020 05:35:17 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600517
+[31-Mar-2020 05:35:17 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：セッションID：9pimbk7o6od50jr4r4a95pqhnf
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600520
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：post送信があります。
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => 
+)
+
+[31-Mar-2020 05:35:20 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:35:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:35:26 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 05:35:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:35:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:35:26 Asia/Tokyo] デバッグ：セッションID：becb1d9iu4asbo11khkqq35uon
+[31-Mar-2020 05:35:26 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600527
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：post送信があります。
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：未入力チェックOK。
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：クエリに成功しました。
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：取得したクエリ結果：
+[31-Mar-2020 05:35:27 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, bool given in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 53
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[31-Mar-2020 05:35:27 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：セッションID：hua9eal2h8f8ovpkd13bmp1sgp
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600796
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：post送信があります。
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：未入力チェックOK。
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：クエリに成功しました。
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：取得したクエリ結果：
+[31-Mar-2020 05:39:56 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, bool given in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 53
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[31-Mar-2020 05:39:56 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：セッションID：ufdriohca1295fhersc8a3tltn
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600842
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：post送信があります。
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => t02f447f@gmail.com
+)
+
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：未入力チェックOK。
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：クエリに成功しました。
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：取得したクエリ結果：Array
+(
+    [id] => 3
+    [user_name] => tooru
+    [email] => t02f447f@gmail.com
+)
+
+[31-Mar-2020 05:40:42 Asia/Tokyo] デバッグ：クエリ成功。DB登録あり。
+[31-Mar-2020 05:40:52 Asia/Tokyo] デバッグ：メールを送信しました。
+[31-Mar-2020 05:40:52 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：セッションID：0cbtht8m5afqn9psc4q2dgq4pb
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585600868
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：post送信があります。
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：未入力チェックOK。
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：クエリに成功しました。
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：取得したクエリ結果：
+[31-Mar-2020 05:41:08 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, bool given in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 53
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[31-Mar-2020 05:41:08 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：セッションID：4du1o6bridkfps5ql2dmmvd53g
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585601427
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：post送信があります。
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：未入力チェックOK。
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：クエリに成功しました。
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：取得したクエリ結果：
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：取得したクエリ結果：
+[31-Mar-2020 05:50:27 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, bool given in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 54
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[31-Mar-2020 05:50:27 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：セッションID：1rql9f81jhs2vlil8erdm59fe5
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585602374
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：post送信があります。
+[31-Mar-2020 06:06:14 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[31-Mar-2020 06:06:15 Asia/Tokyo] デバッグ：未入力チェックOK。
+[31-Mar-2020 06:06:15 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[31-Mar-2020 06:06:15 Asia/Tokyo] デバッグ：クエリに成功しました。
+[31-Mar-2020 06:06:15 Asia/Tokyo] PHP Recoverable fatal error:  Object of class PDOStatement could not be converted to string in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 48
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：セッションID：mpmu06feqcd67fq0s0fjdbh0t8
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585602410
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：post送信があります。
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：未入力チェックOK。
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：クエリに成功しました。
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：取得したクエリ結果：PDOStatement Object
+(
+    [queryString] => SELECT id,user_name,email FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：取得したクエリ結果：
+[31-Mar-2020 06:06:50 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, bool given in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 54
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[31-Mar-2020 06:06:50 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：セッションID：ceba3g0m55vn5scr1jk43av9mf
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585689103
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 06:11:43 Asia/Tokyo] デバッグ：取得したクエリ結果：PDOStatement Object
+(
+    [queryString] => SELECT id,user_name,email FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[01-Apr-2020 06:11:44 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined function ver_dump() in C:\xampp\htdocs\yamagatabi\passRemindsend.php:49
+Stack trace:
+#0 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 49
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：セッションID：3t01gp6tj88o2tiqmkopj91iv6
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585689169
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：取得したクエリ結果：PDOStatement Object
+(
+    [queryString] => SELECT id,user_name,email FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：取得したクエリ結果：
+[01-Apr-2020 06:12:49 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, bool given in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 56
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[01-Apr-2020 06:12:49 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：セッションID：e0fppj7j5ofei20r06cmnhnm3e
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585700405
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：取得したクエリ結果：PDOStatement Object
+(
+    [queryString] => SELECT id,user_name,email FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：取得したクエリ結果：Array
+(
+)
+
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[01-Apr-2020 09:20:05 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：セッションID：hqld2ll6b4iggvlv4rvtcon0re
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585700558
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[01-Apr-2020 09:22:38 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 09:22:39 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 09:22:39 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 09:22:39 Asia/Tokyo] デバッグ：取得したクエリ結果：
+[01-Apr-2020 09:22:39 Asia/Tokyo] PHP Warning:  array_shift() expects parameter 1 to be array, bool given in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 54
+[01-Apr-2020 09:22:39 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[01-Apr-2020 09:22:39 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：セッションID：pi3hah9d3v2p205u03up57164a
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585700615
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 09:23:35 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 09:23:36 Asia/Tokyo] エラー発生：SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) FROM users WHERE email = 'toru08031981496@gmail.com' AND delete_flg = 0' at line 1
+[01-Apr-2020 09:23:36 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 09:25:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:25:42 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：セッションID：q0o0fda3dm41ud7td0hqorr53u
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585700743
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => toru08031981496@gmail.com
+)
+
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：取得した$stmt：PDOStatement Object
+(
+    [queryString] => SELECT count(*) FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：取得した$result：Array
+(
+    [count(*)] => 0
+)
+
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：クエリに失敗したかDBに登録がないemailが入力されました。
+[01-Apr-2020 09:25:43 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 09:26:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:26:31 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 09:26:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:26:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：セッションID：5m00e8mb7igh5jij591nd3ha58
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => lyYzH9kr
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585602652
+)
+
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585700792
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => t02f447f@gmail.com
+)
+
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：取得した$stmt：PDOStatement Object
+(
+    [queryString] => SELECT count(*) FROM users WHERE email = :email AND delete_flg = 0
+)
+
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：取得した$result：Array
+(
+    [count(*)] => 1
+)
+
+[01-Apr-2020 09:26:32 Asia/Tokyo] デバッグ：クエリ成功。DB登録あり。
+[01-Apr-2020 09:26:32 Asia/Tokyo] PHP Notice:  Undefined index: user_name in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 67
+[01-Apr-2020 09:26:41 Asia/Tokyo] デバッグ：メールを送信しました。
+[01-Apr-2020 09:26:41 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => 8RaQywUf
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585702601
+)
+
+[01-Apr-2020 09:47:56 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:47:56 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 09:47:56 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:47:56 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 09:47:56 Asia/Tokyo] デバッグ：セッションID：e36k11fkkbbbqk63jsoq0i18ij
+[01-Apr-2020 09:47:56 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => 8RaQywUf
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585702601
+)
+
+[01-Apr-2020 09:47:56 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585702076
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：セッションID：p2jn3bq4n73p88hcvdqm1ut6c4
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => 8RaQywUf
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585702601
+)
+
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585702081
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 09:48:01 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [token] => 
+)
+
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：「　ログインページ　
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：セッションID：t68c76661e8ba59j0k8ja8800t
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => 8RaQywUf
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585702601
+)
+
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709487
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[01-Apr-2020 11:51:27 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 11:51:33 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:51:33 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 11:51:34 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:51:34 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:51:34 Asia/Tokyo] デバッグ：セッションID：k449ul415v136o05o7k0hlr00u
+[01-Apr-2020 11:51:34 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => 8RaQywUf
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585702601
+)
+
+[01-Apr-2020 11:51:34 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709494
+[01-Apr-2020 11:51:34 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：セッションID：1ihvcr58r9j6dat9eo7q0nttpv
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => 8RaQywUf
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585702601
+)
+
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709498
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => t02f447f@gmail.com
+)
+
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：取得した$result：Array
+(
+    [count(*)] => 1
+)
+
+[01-Apr-2020 11:51:38 Asia/Tokyo] デバッグ：クエリ成功。DB登録あり。
+[01-Apr-2020 11:51:38 Asia/Tokyo] PHP Notice:  Undefined index: user_name in C:\xampp\htdocs\yamagatabi\passRemindsend.php on line 65
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：メールを送信しました。
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => bVaEMe3v
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585711305
+)
+
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：セッションID：k0dnpss4ck7bgo2ganr2ro7pqf
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => bVaEMe3v
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585711305
+)
+
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709505
+[01-Apr-2020 11:51:45 Asia/Tokyo] デバッグ：パスワード再発行認証画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 11:51:45 Asia/Tokyo] PHP Warning:  Use of undefined constant getErrMsg - assumed 'getErrMsg' (this will throw an Error in a future version of PHP) in C:\xampp\htdocs\yamagatabi\passRemindRecieve.php on line 137
+[01-Apr-2020 11:51:45 Asia/Tokyo] PHP Warning:  Illegal string offset 'token' in C:\xampp\htdocs\yamagatabi\passRemindRecieve.php on line 137
+[01-Apr-2020 11:54:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:54:08 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 11:54:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:54:08 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:54:08 Asia/Tokyo] デバッグ：セッションID：e2iddfnu62m7n72okqsjbki4ms
+[01-Apr-2020 11:54:08 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => bVaEMe3v
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585711305
+)
+
+[01-Apr-2020 11:54:08 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709648
+[01-Apr-2020 11:54:08 Asia/Tokyo] デバッグ：パスワード再発行認証画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：セッションID：jji1csjqnpumsjm6redumftvod
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => bVaEMe3v
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585711305
+)
+
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709670
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [token] => bVaEMe3v
+)
+
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：バリデーションOK。
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：認証OK。
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 11:54:30 Asia/Tokyo] デバッグ：パスワードを変更しました。
+[01-Apr-2020 11:54:30 Asia/Tokyo] PHP Notice:  Undefined variable: from in C:\xampp\htdocs\yamagatabi\passRemindRecieve.php on line 88
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：【エラー発生】メールの送信に失敗しました。
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：セッション削除後のセッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+)
+
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：パスワード再発行認証画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：「　ログインページ　
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：セッションID：0189lqiv67ed4ebjdhvmccmj7i
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+)
+
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709671
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[01-Apr-2020 11:54:31 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 11:57:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:57:01 Asia/Tokyo] デバッグ：「　新規登録ページ　
+[01-Apr-2020 11:57:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:57:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:57:01 Asia/Tokyo] デバッグ：セッションID：pu1qi4tqd3a89j48lcp2jkstpb
+[01-Apr-2020 11:57:01 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+)
+
+[01-Apr-2020 11:57:01 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709821
+[01-Apr-2020 11:57:01 Asia/Tokyo] デバッグ：ユーザー登録画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：「　新規登録ページ　
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：セッションID：evpuqo8kmqt29qn5m2kdfdh7n2
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+)
+
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709838
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：email重複チェック$resultの値：Array
+(
+    [count(*)] => 0
+)
+
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：emailの重複はありません。
+[01-Apr-2020 11:57:18 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 11:57:19 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 11:57:19 Asia/Tokyo] デバッグ：登録したセッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+    [login_date] => 1585709839
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[01-Apr-2020 11:57:19 Asia/Tokyo] デバッグ：ユーザー登録完了 <<<<<<<<<<<<<<<<<
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：「　ログインページ　
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：セッションID：o5utntd9jvjdbhpkul836rchhd
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [login_date] => 1585709839
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585709961
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1585713439
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[01-Apr-2020 11:59:21 Asia/Tokyo] デバッグ：マイぺージへ遷移します。
+[01-Apr-2020 12:08:05 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：「　ログインページ　
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：セッションID：f87s94q0f0quehp3gtf46v2027
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [login_date] => 1585709961
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710486
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1585713561
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[01-Apr-2020 12:08:06 Asia/Tokyo] デバッグ：マイぺージへ遷移します。
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：「　ログアウトページ　
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：セッションID：4mckrict10ebmq7golboshfbm6
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [login_date] => 1585710486
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710492
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1585714086
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：ログアウトします。
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：session_destroy後のセッションID:
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：session_destroy後の$_SESSIONの値：Array
+(
+    [msg_success] => メールを送信しました
+    [login_date] => 1585710486
+    [login_limit] => 3600
+    [user_id] => 4
+)
+
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：ログインページへ遷移します。
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：「　ログインページ　
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：セッションID：k3ri69sj5so849efscbcs4fg69
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710492
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[01-Apr-2020 12:08:12 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:08:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:14 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 12:08:14 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:14 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:08:14 Asia/Tokyo] デバッグ：セッションID：le7bmuf76tu38jof08n74nfosg
+[01-Apr-2020 12:08:14 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[01-Apr-2020 12:08:14 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710494
+[01-Apr-2020 12:08:14 Asia/Tokyo] デバッグ：パスワード再発行メール送信画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：セッションID：0qa4i18mt9vba3ci80b99tmtgi
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710500
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [email] => t02f447f@gmail.com
+)
+
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：取得した$result：Array
+(
+    [count(*)] => 1
+)
+
+[01-Apr-2020 12:08:20 Asia/Tokyo] デバッグ：クエリ成功。DB登録あり。
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：メールを送信しました。
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => SjB6TmmD
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585712306
+)
+
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：セッションID：o7ph79vm8aqsj40rmb1vpstvkn
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => SjB6TmmD
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585712306
+)
+
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710506
+[01-Apr-2020 12:08:26 Asia/Tokyo] デバッグ：パスワード再発行認証画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：セッションID：efig276ini844hmv2ko8oa5djd
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => SjB6TmmD
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585712306
+)
+
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710519
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [token] => bVaEMe3v
+)
+
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：バリデーションOK。
+[01-Apr-2020 12:08:39 Asia/Tokyo] デバッグ：パスワード再発行認証画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：セッションID：olahgmt9346fgea1gd92be7hme
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => SjB6TmmD
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585712306
+)
+
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710534
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [token] => qqqqq
+)
+
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 12:08:54 Asia/Tokyo] デバッグ：パスワード再発行認証画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：セッションID：urk13kbo3151feo29cnvs55p51
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => SjB6TmmD
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585712306
+)
+
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710543
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [token] => qqqqqqqq
+)
+
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：バリデーションOK。
+[01-Apr-2020 12:09:03 Asia/Tokyo] デバッグ：パスワード再発行認証画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：「　パスワード再発行メール送信ページ　
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：セッションID：psv21t5fccl07selar6o57kc5c
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [auth_key] => SjB6TmmD
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585712306
+)
+
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710547
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：$_POST情報：Array
+(
+    [token] => SjB6TmmD
+)
+
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：バリデーションOK。
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：認証OK。
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 12:09:07 Asia/Tokyo] デバッグ：パスワードを変更しました。
+[01-Apr-2020 12:09:12 Asia/Tokyo] デバッグ：メールを送信しました。
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：セッション削除後のセッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+)
+
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：パスワード再発行認証画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：「　ログインページ　
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：セッションID：2mae2nc1ubgge31sp43hrqgqvd
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+)
+
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710553
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[01-Apr-2020 12:09:13 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：「　ログインページ　
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：セッションID：37oolnnpjla8oamn405k9al32b
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+)
+
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710642
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：未ログインユーザーです。
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：POST送信があります。
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：$_POSTの中身：Array
+(
+    [email] => t02f447f@gmail.com
+    [pass] => i8R6uALe
+    [pass_save] => on
+)
+
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：クエリ結果の中身：Array
+(
+    [pass] => $2y$10$WAj7f8wE5rREgDgV0X/AJeL37MI/4rXLxwtKMMVcEQ.j5nlQ1zlOi
+    [id] => 4
+)
+
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：パスワードがマッチしました。
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：ログイン保持にチェックがあります。
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：セッション変数の中身：Array
+(
+    [msg_success] => メールを送信しました
+    [login_date] => 1585710642
+    [login_limit] => 2592000
+    [user_id] => 4
+)
+
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：マイページへ遷移します。
+[01-Apr-2020 12:10:42 Asia/Tokyo] デバッグ：画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：セッションID：6s4dk2u9bep36151if2oeb944h
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [login_date] => 1585710642
+    [login_limit] => 2592000
+    [user_id] => 4
+)
+
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710644
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588302642
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：クエリ成功
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 4
+    [user_name] => とーる
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WAj7f8wE5rREgDgV0X/AJeL37MI/4rXLxwtKMMVcEQ.j5nlQ1zlOi
+    [login_time] => 2020-04-01 11:57:19
+    [delete_flg] => 0
+    [create_date] => 2020-04-01 11:57:19
+    [update_date] => 2020-04-01 12:09:07
+)
+
+[01-Apr-2020 12:10:44 Asia/Tokyo] デバッグ：パスワード変更画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：「　パスワード変更ページ　
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：セッションID：avld0gqugdmll6edk8mr6ln48k
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => メールを送信しました
+    [login_date] => 1585710644
+    [login_limit] => 2592000
+    [user_id] => 4
+)
+
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1585710654
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588302644
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：ログイン済みユーザーです。
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：ログイン有効期限以内です。
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：ユーザー情報を取得します。
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：クエリ成功
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：取得したユーザー情報：Array
+(
+    [id] => 4
+    [user_name] => とーる
+    [tel] => 
+    [zip] => 
+    [addr] => 
+    [email] => t02f447f@gmail.com
+    [pass] => $2y$10$WAj7f8wE5rREgDgV0X/AJeL37MI/4rXLxwtKMMVcEQ.j5nlQ1zlOi
+    [login_time] => 2020-04-01 11:57:19
+    [delete_flg] => 0
+    [create_date] => 2020-04-01 11:57:19
+    [update_date] => 2020-04-01 12:09:07
+)
+
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：post送信があります。
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：post情報：Array
+(
+    [pass_old] => i8R6uALe
+    [pass_new] => 111111
+    [pass_new_re] => 111111
+)
+
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：未入力チェックOK。
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：バリデーションチェックOK。
+[01-Apr-2020 12:10:54 Asia/Tokyo] デバッグ：クエリに成功しました。
+[01-Apr-2020 12:10:59 Asia/Tokyo] デバッグ：メールを送信しました。
+[01-Apr-2020 12:10:59 Asia/Tokyo] デバッグ：パスワード変更画面処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
