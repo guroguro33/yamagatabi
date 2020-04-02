@@ -290,6 +290,62 @@ function getSpot($u_id, $s_id){
     error_log('エラー発生：'.$e->getMessage());
   }
 }
+// スポットリスト情報取得
+function getSpotList($currentMinNum = 1, $category, $sort, $span = 6){
+  debug('スポットリスト情報を取得します。');
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // 件数取得用のSQL文作成
+    $sql = 'SELECT spot_id FROM spot';
+    if(!empty($category)){
+      $sql .= ' WHERE cate_id = '.$category;
+    }
+    $data =  array();
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    $rst['total'] = $stmt->rowCount(); //総レコード数
+    $rst['total_page'] = ceil($rst['total'] / $span);
+
+    if(!$stmt){
+      return false;
+    }
+
+    // ページング用のSQL文作成
+    $sql = 'SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id';
+    if(!empty($category)){
+      $sql .= ' WHERE s.cate_id = '.$category;
+    }
+    if(!empty($sort)){
+      switch ($sort){
+        case 1:
+          $sql .= ' ORDER BY view_count DESC';
+          break;
+        case 2;
+          $sql .= ' ORDER BY view_count ASC';
+          break;
+      }
+    }
+    $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;
+    $data = array();
+    debug('SQL文：'.$sql);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果のデータを全レコード格納
+      $rst['data'] = $stmt->fetchAll();
+      return $rst;
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+
 // カテゴリー情報取得
 function getCategory(){
   debug('カテゴリ情報を取得します。');
@@ -445,6 +501,70 @@ function uploadImg($file,$key){
     }
   }
 } 
+// ページネーション
+// $currentPageNum : 現在のページ数
+// $totalPageNum : 総ページ数
+// $link : 検索用GETパラメータリンク
+// $pageColNum : ページネーション表示数
+function pagination($currentPageNum, $totalPageNum, $link = '', $pageColNum = 5){
+  // 現在のページが、総ページ数と同じ　かつ　総ページ数が表示項目数以上なら、左にリンク４個出す
+  if($currentPageNum == $totalPageNum && $totalPageNum >= $pageColNum){
+    $minPageNum = $currentPageNum - 4;
+    $maxPageNum = $currentPageNum;
+  // 現在のページが、総ページ数の１ページ前なら、左にリンク３個、右に１個出す
+  }elseif($currentPageNum == $totalPageNum-1 && $totalPageNum >= $pageColNum){
+    $minPageNum = $currentPageNum - 3;
+    $maxPageNum = $currentPageNum + 1;
+  // 現ページが2の場合は左にリンク１個、右にリンク３個だす。
+  }elseif($currentPageNum == 2 && $totalPageNum >= $pageColNum){
+    $minPageNum = $currentPageNum - 1;
+    $maxPageNum = $currentPageNum + 3;
+  // 現ページが1の場合は左に何も出さない。右に５個出す。
+  }elseif($currentPageNum == 1 && $totalPageNum >= $pageColNum){
+    $minPageNum = $currentPageNum;
+    $maxPageNum = 5;
+    // 総ページ数が表示項目数より少ない場合は、総ページ数をループのMax、ループのMinを１に設定
+  }elseif($totalPageNum < $pageColNum){
+    $minPageNum = 1;
+    $maxPageNum = $totalPageNum;
+  // それ以外は左に２個出す。
+  }else{
+    $minPageNum = $currentPageNum - 2;
+    $maxPageNum = $currentPageNum + 2;
+  }
 
+  echo '<div class="pagination">';
+    echo '<ul class="pagination-list">';
+      if($currentPageNum != 1){
+        echo '<li class="list-item"><a href="?p=1'.$link.'">&lt;</a></li>';
+      }
+      for($i = $minPageNum; $i <= $maxPageNum; $i++){
+        echo '<li class="list-item ';
+        if($i == $currentPageNum){echo 'active';}
+        echo '"><a href="?p='.$i.$link.'">'.$i.'</a></li>';
+      }
+      if($currentPageNum != $maxPageNum){
+        echo '<li class="list-item"><a href="?p='.$maxPageNum.$link.'">&gt;</a></li>';
+      }
+    echo '</ul>';
+  echo '</div>';
+}
+
+// GETパラメータ付与
+// $arr_del_key : 付与から取り除きたいGETパラメータのキー
+function appendGetParam($arr_del_key = array()){
+  if(!empty($_GET)){
+    $str = '?';
+    // debug('$_GETパラメータの値：'.print_r($_GET,true));
+    foreach($_GET as $key => $val){
+      if(!in_array($key, $arr_del_key, true)){
+        // $keyが取り除きたい$arr_del_keyに含まれていない場合に$strに追加
+        $str .= $key.'='.$val.'&';
+      }
+    }
+    $str = mb_substr($str, 0 , -1, "UTF-8");
+    return $str;
+  }
+}
 
 ?>
