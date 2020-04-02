@@ -66,10 +66,12 @@ define('MSG13','古いパスワードと同じです');
 define('MSG14','文字で入力してください');
 define('MSG15','認証キーが正しくありません');
 define('MSG16','有効期限が切れています');
+define('MSG17','正しくありません');
 
 define('SUC01','プロフィールを変更しました');
 define('SUC02','パスワードを変更しました');
 define('SUC03','メールを送信しました');
+define('SUC04','登録しました');
 
 //================================
 // グローバル変数
@@ -152,9 +154,11 @@ function validMatch($str1, $str2, $key){
 }
 // バリデーション関数（電話番号チェック）
 function validTel($str, $key){
-  if(!preg_match("/0\d{1,4}\d{1,4}\d{4}/", $str)){
-    global $err_msg;
-    $err_msg[$key] = MSG10;
+  if($str !== ''){
+    if(!preg_match("/0\d{1,4}\d{1,4}\d{4}/", $str)){
+      global $err_msg;
+      $err_msg[$key] = MSG10;
+    }
   }
 }
 // バリデーション関数（郵便番号チェック）
@@ -180,6 +184,13 @@ function validPass($str, $key){
   validMaxLen($str, $key);
   // 最小文字数チェック
   validMinLen($str, $key);
+}
+// セレクトボックスチェック
+function validSelect($str, $key){
+  if(!preg_match("/^[1-9]+$/",$str)){ //０は禁止
+    global $err_msg;
+    $err_msg[$key] = MSG17;
+  }
 }
 
 // エラーメッセージ表示
@@ -251,6 +262,59 @@ function getUser($u_id){
     error_log('エラー発生：'.$e->getMessage());
   }
 }
+// スポット情報取得
+function getSpot($u_id, $s_id){
+  debug('スポット情報を取得します。');
+  debug('ユーザーID：'.$u_id);
+  debug('スポットID：'.$s_id);
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * from spot WHERE user_id = :u_id AND spot_id = :s_id AND delete_flg = 0';
+    $data = array(':u_id' => $u_id, ':s_id' => $s_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    debug('$stmtの値：'.print_r($stmt,true));
+
+    // クエリ結果のデータを１レコード返却
+    if($stmt){
+      debug('データ取得OK。');
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// カテゴリー情報取得
+function getCategory(){
+  debug('カテゴリ情報を取得します。');
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * FROM category WHERE delete_flg = 0';
+    $data = array();
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果の全データを返却
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->geMessage());
+  }
+}
+
 //================================
 // メール送信
 //================================
@@ -330,6 +394,57 @@ function makeRandKey($length = 8){
   }
   return $str;
 }
+// 画像処理
+function uploadImg($file,$key){
+  debug('画像アップロード処理開始');
+  debug('FILE情報：'.print_r($file,true));
+
+  if(isset($file['error']) && is_int($file['error'])){
+    try {
+      // バリデーション
+      // $file['error']の値を確認。配列内には「UPLOAD_ERR_OK」などの定数が入っている。
+      // 「UPLOAD_ERR_OK」などの定数はphpでファイルアップロード時に自動的に定義される。定数には値として0や1などの数値が入っている。
+      switch($file['error']){
+        case UPLOAD_ERR_OK: // OK
+          break;
+        case UPLOAD_ERR_NO_FILE: //ファイル未選択
+          throw new RuntimeException('ファイルが選択されていません');
+        case UPLOAD_ERR_INI_SIZE: //php.ini定義の最大サイズ超過
+          throw new RuntimeException('ファイルサイズが大きすぎます');
+        case UPLOAD_ERR_FORM_SIZE: //フォーム定義の最大サイズ超過
+          throw new RuntimeException('ファイルサイズが大きすぎます');
+        default: //その他の場合
+          throw new RuntimeException('その他のエラーが発生しました');
+      }
+      // file['mine']の値はブラウザ側で偽装可能なので、MINEタイプを自前でチェックする
+      // exif_imagetype関数は「IMAGETYPE_GIF」「IMAGETYPE_JPEG」などの定数を返す
+      $type = @exif_imagetype($file['tmp_name']);
+      if(!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG],true)){
+        throw new RuntimeException('画像形式が未対応です');
+      }
+
+      // ファイルデータからSHA-1ハッシュを取ってファイル名を決定し、ファイルを保存する
+      // ハッシュ化しておかないとアップロードされたファイル名そのままで保存してしまうと同じファイル名がアップロードされる可能性があり。
+      // DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
+      // image_type_to_extension関数はファイルの拡張子を取得するもの
+      $path = 'upload/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
+      if(!move_uploaded_file($file['tmp_name'], $path)) { //ファイルを移動する
+        throw new RuntimeException('ファイル保存時にエラーが発生しました');
+      }
+      // 保存したファイルパスのパーミッション（権限）を変更する
+      chmod($path, 0644);
+
+      debug('ファイルは正常にアップロードされました');
+      debug('ファイルパス：'.$path);
+      return $path;
+
+    } catch (RuntimeException $e) {
+      error_log('エラー発生：'.$e->getMessage());
+      global $err_msg;
+      $err_msg[$key] = $e->getMessage();
+    }
+  }
+} 
 
 
 ?>

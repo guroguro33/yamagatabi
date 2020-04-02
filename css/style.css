@@ -290,6 +290,11 @@ main {
   margin: 0 100px 20px;
 }
 
+.form-container .spot-form .area-msg {
+  margin-bottom: 0;
+  text-align: center;
+}
+
 .form-container .area-msg {
   margin-bottom: 15px;
   text-align: left;
@@ -305,6 +310,7 @@ main {
 }
 
 .form-container label .require::after {
+  content: "必須";
   position: absolute;
   margin-left: 5px;
   margin-top: 3px;
@@ -326,7 +332,6 @@ main {
 }
 
 .form-container label textarea {
-  margin-bottom: 20px;
   padding: 5px 10px;
   width: 400px;
   height: 80px;
@@ -362,6 +367,7 @@ main {
   border-radius: 10px;
   line-height: 140px;
   text-align: center;
+  font-size: 10px;
 }
 
 .form-container .area-drop input[type="file"] {
@@ -376,9 +382,11 @@ main {
 
 .form-container .area-drop img {
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  width: auto;
+  height: 100%;
 }
 
 .btn {
