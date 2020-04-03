@@ -1,12 +1,30 @@
 <?php
-
 // 共通変数・関数ファイルの読込み
 require('function.php');
 
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debug('「　マイページ　');
+debug('「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「');
+debugLogStart();
 
+//==================================
+// 画面処理
+//==================================
+// ログイン認証
+require('auth.php');
 
+// 画面表示用データ取得
+// =================================
+// ユーザーID
+$u_id = $_SESSION['user_id'];
+// DBから自分が投稿したスポット情報を取得
+$spotData = getMySpots($u_id);
+// DBから自分のお気に入りスポットを取得
+$favoriteData = getMyFavorite($u_id);
+debug('$favoriteData:'.print_r($favoriteData,true));
+
+debug('画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
 ?>
-
 <?php
 $siteTitle = "マイページ";
 require('head.php');
@@ -17,6 +35,10 @@ require('head.php');
     <?php
     require('header.php');
     ?>
+
+    <p id="js-show-msg" class="msg-slide" style="display:none;">
+      <?php echo getSessionFlash('msg_success'); ?>
+    </p>
 
     <!-- メインコンテンツ -->
     <main>
@@ -37,102 +59,36 @@ require('head.php');
       <div class="wrap mypage-content">
         <h4>投稿したおすすめスポット</h4>
         <section class="content">
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
+          <?php foreach($spotData as $key => $val):  ?>
+            <a href="spotDetail.php<?php echo '?s_id='.$val['spot_id']; ?>" class="card">
+              <div class="spot-img">
+                <img src="<?php echo showImg(sanitize($val['pic1'])); ?>" alt="<?php echo sanitize($val['spot_name']);?>">
+              </div>
+              <div class="desc">
+                <p class="category"><?php echo sanitize($val['category_name']); ?></p>
+                <p class="spot-name"><?php echo sanitize($val['spot_name']); ?></p>
+                <p class="review-count">口コミ数：<?php echo sanitize($val['view_count']); ?>件</p>
+              </div>
+            </a>
+          <?php endforeach; ?>
         </section>
       </div>
 
       <div class="wrap mypage-content">
         <h4>お気に入り</h4>
         <section class="content">
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
-          <a href="" class="card">
-            <div class="spot-img">
-              <img src="./img/yamadera.jpg" alt="山寺">
-            </div>
-            <div class="desc">
-              <p class="category">景勝地</p>
-              <p class="spot-name">山寺</p>
-              <p class="review-count">口コミ数：３件</p>
-            </div>
-          </a>
+          <?php foreach($favoriteData as $key => $val):  ?>
+            <a href="spotDetail.php<?php echo '?s_id='.$val['spot_id']; ?>" class="card">
+              <div class="spot-img">
+                <img src="<?php echo showImg(sanitize($val['pic1'])); ?>" alt="<?php echo sanitize($val['spot_name']); ?>">
+              </div>
+              <div class="desc">
+                <p class="category"><?php echo sanitize($val['category_name']); ?></p>
+                <p class="spot-name"><?php echo sanitize($val['spot_name']); ?></p>
+                <p class="review-count">口コミ数：<?php echo sanitize($val['view_count']); ?>件</p>
+              </div>
+            </a>
+          <?php endforeach; ?>
         </section>
       </div>
     </main>

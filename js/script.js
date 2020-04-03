@@ -6,11 +6,11 @@ jQuery(document).ready(function(){
   } 
 
   //メッセージ表示
-  var $jsShowImg = $('#js-show-img');
-  var msg = $jsShowImg.text();
+  var $jsShowMsg = $('#js-show-msg');
+  var msg = $jsShowMsg.text();
   if(msg.replace(/^[\s　]+[\s　]+$/g,"").length){
     $jsShowMsg.fadeToggle('slow');
-    setTimeout(function(){ $jsShowImg.slideToggle('slow'); }, 5000);
+    setTimeout(function(){ $jsShowMsg.fadeToggle('slow'); }, 5000);
   }
 
   //画像ライブプレビュー
@@ -46,5 +46,32 @@ jQuery(document).ready(function(){
   $countUp.on('keyup', function(e){
     $countView.html($(this).val().length);
   });
+
+  // お気に入り登録・削除
+  var $like, 
+      likeSpotId;
+  // $('.js-click-like')の中身がなかった場合、nullを$likeに代入する
+  $like = $('.js-click-like') || null;
+  // $likeのDOM属性'data-spotid'の値を取得
+  // 注意！！data属性は大文字使えません！
+  likeSpotId = $like.data('spotid') || null;
+  // 数値の0はfalseと判定されてしまう。spot_idが0の場合もありえるので、0もtrueとする場合にはundefinedとnullを判定する
+  console.log('likeSpotId:'+likeSpotId);
+  if(likeSpotId !== undefined && likeSpotId !== null){
+    $like.on('click', function(){
+      var $this = $(this);
+      $.ajax({
+        type: "POST",
+        url: "ajaxLike.php",
+        data: { spotId : likeSpotId}
+      }).done(function( data ){
+        console.log('Ajax Success');
+        // クラス属性をtoggleでつけ外しする
+        $this.toggleClass('active');
+      }).fail(function( msg ){
+        console.log('Ajax Error');
+      });
+    });
+  }
 
 });

@@ -448,19 +448,20 @@ input[type="checkbox"] {
   font-size: 20px;
 }
 
-h4 {
-  margin-bottom: 30px;
+.mypage-content h4 {
+  margin: 30px 0;
   font-size: 22px;
 }
 
-.content {
+.mypage-content .content {
   display: flex;
   margin: 0 auto;
+  padding: 0 10%;
   flex-wrap: wrap;
   width: 100%;
 }
 
-.card {
+.mypage-content .card {
   display: flex;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -471,38 +472,40 @@ h4 {
   border: solid 1px #707070;
 }
 
-.card:nth-child(2n) {
+.mypage-content .card:nth-child(2n) {
   margin-right: 0;
 }
 
-.card .spot-img {
+.mypage-content .card .spot-img {
   margin-right: 5px;
   width: 60%;
 }
 
-.card img {
+.mypage-content .card img {
   width: 100%;
   max-height: 130px;
   height: auto;
   vertical-align: bottom;
 }
 
-.card .desc p {
+.mypage-content .card .desc p {
   margin-bottom: 5px;
   font-size: 16px;
+  text-align: left;
   color: #707070;
 }
 
-.card .desc .spot-name {
-  font-size: 26px;
+.mypage-content .card .desc .spot-name {
+  font-size: 22px;
 }
 
-.card .desc .review-count {
+.mypage-content .card .desc .review-count {
   margin-top: 18px;
   padding: 3px;
   border: solid 1px #707070;
   border-radius: 5px;
   font-size: 14px;
+  text-align: center;
 }
 
 .prev {
@@ -546,6 +549,17 @@ h4 {
   margin: 0;
   font-size: 28px;
   line-height: 60px;
+}
+
+.spot-name .icn-favorite {
+  line-height: 60px;
+  font-size: 26px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+
+.spot-name .icn-favorite.active {
+  color: #fe8a8b;
 }
 
 .picture {
@@ -649,4 +663,16 @@ address .addr-container .comment-txt {
 
 .review-post .btn:hover {
   background: #707070;
+}
+
+.msg-slide {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(122, 100, 230, 0.7);
+  text-align: center;
+  font-size: 18px;
+  line-height: 60px;
+  color: #404040;
 }

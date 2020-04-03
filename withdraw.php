@@ -67,6 +67,19 @@ require('head.php');
     <!-- メインコンテンツ -->
     <main>
 
+      <!-- マイページメニュー -->
+      <section class="top-img">
+        <h3>マイページメニュー</h3>
+        <div class="mypage-menu">
+          <ul class="menu-list">
+            <li class="list-item"><a href="spotEdit.php">おすすめスポット投稿</a></li>
+            <li class="list-item"><a href="profEdit.php">プロフィール編集</a></li>
+            <li class="list-item"><a href="passEdit.php">パスワード変更</a></li>
+            <li class="list-item"><a href="withdraw.php">退会</a></li>
+          </ul>
+        </div>
+      </section>
+
       <div class="form-container wrap">
         <form action="" method="post" class="form">
           <h2 class="title">退会</h2>

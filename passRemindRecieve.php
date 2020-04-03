@@ -119,6 +119,10 @@ require('head.php');
     require('header.php');
     ?>
 
+    <p id="js-show-msg" class="msg-slide" style="display:none;">
+      <?php echo getSessionFlash('msg_success'); ?>
+    </p>
+
     <!-- メインコンテンツ -->
     <main>
 

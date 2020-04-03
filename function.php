@@ -202,6 +202,32 @@ function getErrMsg($key){
 }
 
 //================================
+// ログイン認証
+//================================
+function isLogin(){
+  // ログインしている場合
+  if(!empty($_SESSION['login_date'])){
+    debug('ログイン済みユーザーです。');
+
+    // 現在時刻が最終ログイン時刻＋有効期限を超えていた場合
+    if(time() > $_SESSION['login_date'] + $_SESSION['login_limit']){
+      debug('ログイン有効期限オーバーです。');
+
+      // セッションを削除
+      session_destroy();
+      return false;
+    }else{
+      debug('ログイン有効期限以内です。');
+      return true;
+    }
+
+  }else{
+    debug('未ログインユーザです。');
+    return false;
+  }
+}
+
+//================================
 // データベース
 //================================
 // DB接続関数
@@ -370,6 +396,31 @@ function getSpotOne($s_id){
     error_log('エラー発生：'.$e->getMessage());
   }
 }
+// 自分の投稿した全スポット情報を取得
+function getMySpots($u_id){
+  debug('自分が投稿したスポット情報を取得します。');
+  debug('ユーザーID:'.$u_id);
+  // 例外処理
+  try{
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT s.spot_id, s.spot_name, s.pic1, s.view_count, c.category_name FROM spot as s LEFT JOIN category as c ON s.cate_id = c.cate_id WHERE s.user_id = :u_id';
+    $data = array(':u_id' => $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果のデータを全レコード返却
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
 // 口コミ情報の取得
 function getMsg($s_id){
   debug('口コミ情報を取得します');
@@ -417,6 +468,60 @@ function getCategory(){
 
   } catch (Exception $e) {
     error_log('エラー発生：'.$e->geMessage());
+  }
+}
+// お気に入り情報の有無
+function isLike($u_id, $s_id){
+  debug('お気に入り情報があるか確認します。');
+  debug('ユーザーID：'.$u_id);
+  debug('スポットID：'.$s_id);
+  //例外処理
+  try{
+    // DB接続
+    $dbh =dbConnect();
+    // SQL文作成
+    $sql = 'SELECT count(*) FROM favorite WHERE user_id = :u_id AND spot_id = :s_id';
+    $data = array(':u_id' => $u_id, ':s_id' => $s_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    debug('$result'.print_r($result,true));
+
+    if(!empty(array_shift($result))){
+      debug('お気に入りです');
+      return true;
+    }else{
+      debug('お気に入りではありません');
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// 自分のお気に入り情報取得
+function getMyFavorite($u_id){
+  debug('自分のお気に入り情報を取得します。');
+  debug('ユーザーID：'.$u_id);
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT s.spot_id, s.spot_name, s.view_count, s.pic1, c.category_name FROM favorite as f LEFT JOIN spot as s ON f.spot_id = s.spot_id LEFT JOIN category as c ON s.cate_id = c.cate_id WHERE f.user_id = :u_id';
+    $data = array(':u_id' => $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果の全データを取得
+      return $stmt->fetchAll();
+    }else{
+      return false; 
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生；'.$e->getMessage());
   }
 }
 
@@ -484,7 +589,7 @@ function getFormData($str, $flg = false){
 }
 // sessionを1回だけ取得できる
 function getSessionFlash($key){
-  if(!empty($_session[$key])){
+  if(!empty($_SESSION[$key])){
     $data = $_SESSION[$key];
     $_SESSION[$key] = '';
     return $data;

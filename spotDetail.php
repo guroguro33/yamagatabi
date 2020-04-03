@@ -90,13 +90,14 @@ require('head.php');
         <h1><span>山形</span>で<span>旅</span>しよう。</h1>
       </section>
       <div class="prev wrap">
-        <a href="index.php<?php echo appendGetParam(array('s_id')); ?>" class="prev-item">&lt;　一覧にもどる</a>
+        <a href="<?php echo (basename($_SERVER["HTTP_REFERER"]) == 'mypage.php')? 'mypage.php' : 'index.php'.appendGetParam(array('s_id')); ?>" class="prev-item">&lt;　一覧にもどる</a>
       </div>
       <div class="wrap spot-content">
         <section class="content">
           <div class="spot-name">
             <p class="category"><?php echo sanitize($spotData['category_name']); ?></p>
             <h2 class="name"><?php echo sanitize($spotData['spot_name']); ?></h2>
+            <i class="fa fa-heart icn-favorite js-click-like <?php if(isLike($_SESSION['user_id'], $spotData['spot_id'])){echo 'active';} ?>" aria-hidden="true" data-spotid="<?php echo sanitize($spotData['spot_id']); ?>"></i>
           </div>
           <div class="picture">
             <div class="pic-wrap">
