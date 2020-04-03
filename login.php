@@ -110,6 +110,10 @@ require('head.php');
   require('header.php')
   ?>
 
+  <p id="js-show-msg" class="msg-slide" style="display:none;">
+    <?php echo getSessionFlash('msg_success'); ?>
+  </p>
+
     <!-- メインコンテンツ -->
     <main>
 
@@ -137,7 +141,7 @@ require('head.php');
             <input type="checkbox" name="pass_save">次回ログインを省略する
           </label>
           <input type="submit" class="btn" value="ログイン">
-          <p class="passRemind">パスワードを忘れた方は<a href="passRemindSend.html">こちら</a>
+          <p class="passRemind">パスワードを忘れた方は<a href="passRemindSend.php">こちら</a>
           </p>
         </form>
       </div>

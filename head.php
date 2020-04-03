@@ -15,7 +15,7 @@
 		<!-- googleフォント -->
 		<link href="https://fonts.googleapis.com/css?family=Lato:400,700|Noto+Sans+JP:400,700&display=swap&subset=japanese" rel="stylesheet">
 		<!-- jQuery -->
-		<script src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" defer></script>
 		<!-- javascript -->
 		<script src="js/script.js" defer></script>
 		

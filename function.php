@@ -59,6 +59,19 @@ define('MSG06','すでに登録済みのメールアドレスです');
 define('MSG07','エラーが発生しました。しばらく経ってからやり直してください');
 define('MSG08','メールアドレスまたはパスワードが違います');
 define('MSG09','パスワード（再入力）が一致しません');
+define('MSG10','電話番号の形式が違います');
+define('MSG11','郵便番号の形式が違います');
+define('MSG12','古いパスワードが違います');
+define('MSG13','古いパスワードと同じです');
+define('MSG14','文字で入力してください');
+define('MSG15','認証キーが正しくありません');
+define('MSG16','有効期限が切れています');
+define('MSG17','正しくありません');
+
+define('SUC01','プロフィールを変更しました');
+define('SUC02','パスワードを変更しました');
+define('SUC03','メールを送信しました');
+define('SUC04','登録しました');
 
 //================================
 // グローバル変数
@@ -139,12 +152,78 @@ function validMatch($str1, $str2, $key){
     $err_msg[$key] = MSG09;
   }
 }
+// バリデーション関数（電話番号チェック）
+function validTel($str, $key){
+  if($str !== ''){
+    if(!preg_match("/0\d{1,4}\d{1,4}\d{4}/", $str)){
+      global $err_msg;
+      $err_msg[$key] = MSG10;
+    }
+  }
+}
+// バリデーション関数（郵便番号チェック）
+function validZip($str, $key){
+  if(!preg_match("/^\d{7}$/", $str)){
+    global $err_msg;
+    $err_msg[$key] = MSG11;
+  }
+}
+// バリデーション関数（固定長チェック）
+function validLength($str, $key, $len = 8){
+  if(mb_strlen($str) !== $len){
+    global $err_msg;
+    $err_msg[$key] = $len.MSG14;
+  }
+}
+
+// パスワードチェック
+function validPass($str, $key){
+  // 半角英数字チェック
+  validHalf($str, $key);
+  // 最大文字数チェック
+  validMaxLen($str, $key);
+  // 最小文字数チェック
+  validMinLen($str, $key);
+}
+// セレクトボックスチェック
+function validSelect($str, $key){
+  if(!preg_match("/^[1-9]+$/",$str)){ //０は禁止
+    global $err_msg;
+    $err_msg[$key] = MSG17;
+  }
+}
 
 // エラーメッセージ表示
 function getErrMsg($key){
   global $err_msg;
   if(!empty($err_msg[$key])){
     return $err_msg[$key];
+  }
+}
+
+//================================
+// ログイン認証
+//================================
+function isLogin(){
+  // ログインしている場合
+  if(!empty($_SESSION['login_date'])){
+    debug('ログイン済みユーザーです。');
+
+    // 現在時刻が最終ログイン時刻＋有効期限を超えていた場合
+    if(time() > $_SESSION['login_date'] + $_SESSION['login_limit']){
+      debug('ログイン有効期限オーバーです。');
+
+      // セッションを削除
+      session_destroy();
+      return false;
+    }else{
+      debug('ログイン有効期限以内です。');
+      return true;
+    }
+
+  }else{
+    debug('未ログインユーザです。');
+    return false;
   }
 }
 
@@ -184,7 +263,470 @@ function queryPost($dbh, $sql, $data){
     return $stmt;
   }
 }
+// ユーザーデータ取得
+function getUser($u_id){
+  debug('ユーザー情報を取得します。');
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // sql文作成
+    $sql ='SELECT * FROM users WHERE id = :u_id AND delete_flg = 0';
+    $data = array(':u_id'=> $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
 
+    if($stmt){
+      debug('クエリ成功');
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      debug('クエリ失敗');
+      return false;
+    }
+    
+  } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// 投稿者指定のスポット情報取得
+function getSpot($u_id, $s_id){
+  debug('スポット情報を取得します。');
+  debug('ユーザーID：'.$u_id);
+  debug('スポットID：'.$s_id);
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * from spot WHERE user_id = :u_id AND spot_id = :s_id AND delete_flg = 0';
+    $data = array(':u_id' => $u_id, ':s_id' => $s_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    debug('$stmtの値：'.print_r($stmt,true));
 
+    // クエリ結果のデータを１レコード返却
+    if($stmt){
+      debug('データ取得OK。');
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// スポットリスト情報取得
+function getSpotList($currentMinNum = 1, $category, $sort, $span = 6){
+  debug('スポットリスト情報を取得します。');
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // 件数取得用のSQL文作成
+    $sql = 'SELECT spot_id FROM spot';
+    if(!empty($category)){
+      $sql .= ' WHERE cate_id = '.$category;
+    }
+    $data =  array();
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    $rst['total'] = $stmt->rowCount(); //総レコード数
+    $rst['total_page'] = ceil($rst['total'] / $span);
+
+    if(!$stmt){
+      return false;
+    }
+
+    // ページング用のSQL文作成
+    $sql = 'SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id';
+    if(!empty($category)){
+      $sql .= ' WHERE s.cate_id = '.$category;
+    }
+    if(!empty($sort)){
+      switch ($sort){
+        case 1:
+          $sql .= ' ORDER BY view_count DESC';
+          break;
+        case 2;
+          $sql .= ' ORDER BY view_count ASC';
+          break;
+      }
+    }
+    $sql .= ' LIMIT '.$span.' OFFSET '.$currentMinNum;
+    $data = array();
+    debug('SQL文：'.$sql);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果のデータを全レコード格納
+      $rst['data'] = $stmt->fetchAll();
+      return $rst;
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// 投稿者不要のスポット情報取得
+function getSpotOne($s_id){
+  debug('スポット情報を取得します。');
+  debug('スポットID：'.$s_id);
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT s.spot_id, s.spot_name, s.addr, s.tel, s.comment, s.pic1, s.pic2, s.pic3, s.view_count, c.category_name FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.spot_id = :s_id AND s.delete_flg = 0 AND c.delete_flg = 0';
+    $data = array(':s_id' => $s_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果のデータを１レコード返却
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// 自分の投稿した全スポット情報を取得
+function getMySpots($u_id){
+  debug('自分が投稿したスポット情報を取得します。');
+  debug('ユーザーID:'.$u_id);
+  // 例外処理
+  try{
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT s.spot_id, s.spot_name, s.pic1, s.view_count, c.category_name FROM spot as s LEFT JOIN category as c ON s.cate_id = c.cate_id WHERE s.user_id = :u_id';
+    $data = array(':u_id' => $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果のデータを全レコード返却
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// 口コミ情報の取得
+function getMsg($s_id){
+  debug('口コミ情報を取得します');
+  debug('スポットID：'.$s_id);
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT r.send_date, r.msg, u.user_name FROM review AS r LEFT JOIN users AS u ON r.user_id = u.id WHERE r.spot_id = :s_id';
+    $data = array(':s_id' => $s_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql ,$data);
+
+    if($stmt){
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+
+// カテゴリー情報取得
+function getCategory(){
+  debug('カテゴリ情報を取得します。');
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT * FROM category WHERE delete_flg = 0';
+    $data = array();
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果の全データを返却
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->geMessage());
+  }
+}
+// お気に入り情報の有無
+function isLike($u_id, $s_id){
+  debug('お気に入り情報があるか確認します。');
+  debug('ユーザーID：'.$u_id);
+  debug('スポットID：'.$s_id);
+  //例外処理
+  try{
+    // DB接続
+    $dbh =dbConnect();
+    // SQL文作成
+    $sql = 'SELECT count(*) FROM favorite WHERE user_id = :u_id AND spot_id = :s_id';
+    $data = array(':u_id' => $u_id, ':s_id' => $s_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+    $result = $stmt->fetch(PDO::FETCH_ASSOC);
+    debug('$result'.print_r($result,true));
+
+    if(!empty(array_shift($result))){
+      debug('お気に入りです');
+      return true;
+    }else{
+      debug('お気に入りではありません');
+      return false;
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// 自分のお気に入り情報取得
+function getMyFavorite($u_id){
+  debug('自分のお気に入り情報を取得します。');
+  debug('ユーザーID：'.$u_id);
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT s.spot_id, s.spot_name, s.view_count, s.pic1, c.category_name FROM favorite as f LEFT JOIN spot as s ON f.spot_id = s.spot_id LEFT JOIN category as c ON s.cate_id = c.cate_id WHERE f.user_id = :u_id';
+    $data = array(':u_id' => $u_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果の全データを取得
+      return $stmt->fetchAll();
+    }else{
+      return false; 
+    }
+
+  } catch (Exception $e) {
+    error_log('エラー発生；'.$e->getMessage());
+  }
+}
+
+//================================
+// メール送信
+//================================
+function sendMail($from, $to, $subject, $comment){
+  if(!empty($to) && !empty($subject) && !empty($comment)){
+    //文字化けしないように設定（お決まりパターン）
+    mb_language("japanese"); //現在使っている言語を設定する
+    mb_internal_encoding("UTF-8"); //内部の日本語をどうエンコーディングするかを設定
+
+    // メール送信（結果はboolean)
+    $result = mb_send_mail($to, $subject, $comment, "From: ".$from);
+    // 送信結果を判定
+    if($result){
+      debug('メールを送信しました。');
+    }else{
+      debug('【エラー発生】メールの送信に失敗しました。');
+    }
+  }else{
+    debug('【エラー発生】メールの送信の情報不足です。');
+  }
+}
+
+//================================
+// その他
+//================================
+// サニタイズ
+function sanitize($str){
+  return htmlspecialchars($str, ENT_QUOTES);
+}
+// フォーム入力保持
+function getFormData($str, $flg = false){
+  if($flg){
+    $method = $_GET;
+  }else{
+    $method = $_POST;
+  }
+
+  global $dbFormData;
+  // ユーザーデータがある場合
+  if(!empty($dbFormData)){
+    // フォームのエラーがある場合
+    if(!empty($err_msg[$str])){
+      // POSTデータがある場合
+      if(isset($method[$str])){ //金額や郵便番号などのフォームで数字や数値の０がはいっている場合もあるので、issetを使う
+        return sanitize($method[$str]);
+      }else{ //POSTがない場合はDBの情報を表示
+        return sanitize($dbFormData[$str]);
+      }
+    }else{ //フォームのエラーがない場合
+      // POSTにデータがあり、DBの情報と違う場合（他のフォームでひっかかっている状態）
+      if(isset($method[$str]) && $method[$str] !== $dbFormData[$str]){
+        return sanitize($method[$str]);
+      }else{ //そもそも変更していない
+        return sanitize($dbFormData[$str]);
+      }
+    }
+  }else{
+    if(isset($method[$str])){
+      return sanitize($method[$str]);
+    }
+  }
+}
+// sessionを1回だけ取得できる
+function getSessionFlash($key){
+  if(!empty($_SESSION[$key])){
+    $data = $_SESSION[$key];
+    $_SESSION[$key] = '';
+    return $data;
+  }
+}
+// 認証キー生成
+function makeRandKey($length = 8){
+  static $chars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+  $str = '';
+  for ($i = 0; $i < $length; $i++){
+    $str .= $chars[mt_rand(0, 61)];
+  }
+  return $str;
+}
+// 画像処理
+function uploadImg($file,$key){
+  debug('画像アップロード処理開始');
+  debug('FILE情報：'.print_r($file,true));
+
+  if(isset($file['error']) && is_int($file['error'])){
+    try {
+      // バリデーション
+      // $file['error']の値を確認。配列内には「UPLOAD_ERR_OK」などの定数が入っている。
+      // 「UPLOAD_ERR_OK」などの定数はphpでファイルアップロード時に自動的に定義される。定数には値として0や1などの数値が入っている。
+      switch($file['error']){
+        case UPLOAD_ERR_OK: // OK
+          break;
+        case UPLOAD_ERR_NO_FILE: //ファイル未選択
+          throw new RuntimeException('ファイルが選択されていません');
+        case UPLOAD_ERR_INI_SIZE: //php.ini定義の最大サイズ超過
+          throw new RuntimeException('ファイルサイズが大きすぎます');
+        case UPLOAD_ERR_FORM_SIZE: //フォーム定義の最大サイズ超過
+          throw new RuntimeException('ファイルサイズが大きすぎます');
+        default: //その他の場合
+          throw new RuntimeException('その他のエラーが発生しました');
+      }
+      // file['mine']の値はブラウザ側で偽装可能なので、MINEタイプを自前でチェックする
+      // exif_imagetype関数は「IMAGETYPE_GIF」「IMAGETYPE_JPEG」などの定数を返す
+      $type = @exif_imagetype($file['tmp_name']);
+      if(!in_array($type, [IMAGETYPE_GIF, IMAGETYPE_JPEG, IMAGETYPE_PNG],true)){
+        throw new RuntimeException('画像形式が未対応です');
+      }
+
+      // ファイルデータからSHA-1ハッシュを取ってファイル名を決定し、ファイルを保存する
+      // ハッシュ化しておかないとアップロードされたファイル名そのままで保存してしまうと同じファイル名がアップロードされる可能性があり。
+      // DBにパスを保存した場合、どっちの画像のパスなのか判断つかなくなってしまう
+      // image_type_to_extension関数はファイルの拡張子を取得するもの
+      $path = 'upload/'.sha1_file($file['tmp_name']).image_type_to_extension($type);
+      if(!move_uploaded_file($file['tmp_name'], $path)) { //ファイルを移動する
+        throw new RuntimeException('ファイル保存時にエラーが発生しました');
+      }
+      // 保存したファイルパスのパーミッション（権限）を変更する
+      chmod($path, 0644);
+
+      debug('ファイルは正常にアップロードされました');
+      debug('ファイルパス：'.$path);
+      return $path;
+
+    } catch (RuntimeException $e) {
+      error_log('エラー発生：'.$e->getMessage());
+      global $err_msg;
+      $err_msg[$key] = $e->getMessage();
+    }
+  }
+} 
+// ページネーション
+// $currentPageNum : 現在のページ数
+// $totalPageNum : 総ページ数
+// $link : 検索用GETパラメータリンク
+// $pageColNum : ページネーション表示数
+function pagination($currentPageNum, $totalPageNum, $link = '', $pageColNum = 5){
+  // 現在のページが、総ページ数と同じ　かつ　総ページ数が表示項目数以上なら、左にリンク４個出す
+  if($currentPageNum == $totalPageNum && $totalPageNum >= $pageColNum){
+    $minPageNum = $currentPageNum - 4;
+    $maxPageNum = $currentPageNum;
+  // 現在のページが、総ページ数の１ページ前なら、左にリンク３個、右に１個出す
+  }elseif($currentPageNum == $totalPageNum-1 && $totalPageNum >= $pageColNum){
+    $minPageNum = $currentPageNum - 3;
+    $maxPageNum = $currentPageNum + 1;
+  // 現ページが2の場合は左にリンク１個、右にリンク３個だす。
+  }elseif($currentPageNum == 2 && $totalPageNum >= $pageColNum){
+    $minPageNum = $currentPageNum - 1;
+    $maxPageNum = $currentPageNum + 3;
+  // 現ページが1の場合は左に何も出さない。右に５個出す。
+  }elseif($currentPageNum == 1 && $totalPageNum >= $pageColNum){
+    $minPageNum = $currentPageNum;
+    $maxPageNum = 5;
+    // 総ページ数が表示項目数より少ない場合は、総ページ数をループのMax、ループのMinを１に設定
+  }elseif($totalPageNum < $pageColNum){
+    $minPageNum = 1;
+    $maxPageNum = $totalPageNum;
+  // それ以外は左に２個出す。
+  }else{
+    $minPageNum = $currentPageNum - 2;
+    $maxPageNum = $currentPageNum + 2;
+  }
+
+  echo '<div class="pagination">';
+    echo '<ul class="pagination-list">';
+      if($currentPageNum != 1){
+        echo '<li class="list-item"><a href="?p=1'.$link.'">&lt;</a></li>';
+      }
+      for($i = $minPageNum; $i <= $maxPageNum; $i++){
+        echo '<li class="list-item ';
+        if($i == $currentPageNum){echo 'active';}
+        echo '"><a href="?p='.$i.$link.'">'.$i.'</a></li>';
+      }
+      if($currentPageNum != $maxPageNum){
+        echo '<li class="list-item"><a href="?p='.$maxPageNum.$link.'">&gt;</a></li>';
+      }
+    echo '</ul>';
+  echo '</div>';
+}
+// 画像がないときの表示用関数
+function showImg($path){
+  if(empty($path)){
+    return 'img/sample-img.png';
+  }else{
+    return $path;
+  }
+}
+
+// GETパラメータ付与
+// $arr_del_key : 付与から取り除きたいGETパラメータのキー
+function appendGetParam($arr_del_key = array()){
+  if(!empty($_GET)){
+    $str = '?';
+    // debug('$_GETパラメータの値：'.print_r($_GET,true));
+    foreach($_GET as $key => $val){
+      if(!in_array($key, $arr_del_key, true)){
+        // $keyが取り除きたい$arr_del_keyに含まれていない場合に$strに追加
+        $str .= $key.'='.$val.'&';
+      }
+    }
+    $str = mb_substr($str, 0 , -1, "UTF-8");
+    return $str;
+  }
+}
 
 ?>
