@@ -393,6 +393,13 @@ main.index {
   height: 100%;
 }
 
+.review-area-msg {
+  margin: 15px 0 15px;
+  text-align: left;
+  font-size: 14px;
+  color: red;
+}
+
 .btn {
   display: block;
   margin: 30px auto 0;
@@ -450,7 +457,7 @@ h4 {
   display: flex;
   margin: 0 auto;
   flex-wrap: wrap;
-  width: 80%;
+  width: 100%;
 }
 
 .card {
@@ -520,7 +527,8 @@ h4 {
 }
 
 .spot-content .content {
-  margin: 0px 70px 34px;
+  display: block;
+  margin: 0px 100px 34px;
 }
 
 .spot-name {
@@ -578,7 +586,7 @@ address .addr-container .comment-txt {
 
 .review-count {
   display: block;
-  margin: 18px 0 24px;
+  margin: 50px 0 24px;
   padding: 8px;
   width: 160px;
   border: solid 1px #707070;
@@ -590,6 +598,7 @@ address .addr-container .comment-txt {
 .review {
   display: flex;
   margin-bottom: 30px;
+  width: 100%;
 }
 
 .review .review-name {

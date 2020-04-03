@@ -262,7 +262,7 @@ function getUser($u_id){
     error_log('エラー発生：'.$e->getMessage());
   }
 }
-// スポット情報取得
+// 投稿者指定のスポット情報取得
 function getSpot($u_id, $s_id){
   debug('スポット情報を取得します。');
   debug('ユーザーID：'.$u_id);
@@ -342,6 +342,55 @@ function getSpotList($currentMinNum = 1, $category, $sort, $span = 6){
     }
 
   } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// 投稿者不要のスポット情報取得
+function getSpotOne($s_id){
+  debug('スポット情報を取得します。');
+  debug('スポットID：'.$s_id);
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT s.spot_id, s.spot_name, s.addr, s.tel, s.comment, s.pic1, s.pic2, s.pic3, s.view_count, c.category_name FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.spot_id = :s_id AND s.delete_flg = 0 AND c.delete_flg = 0';
+    $data = array(':s_id' => $s_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql, $data);
+
+    if($stmt){
+      // クエリ結果のデータを１レコード返却
+      return $stmt->fetch(PDO::FETCH_ASSOC);
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e){
+    error_log('エラー発生：'.$e->getMessage());
+  }
+}
+// 口コミ情報の取得
+function getMsg($s_id){
+  debug('口コミ情報を取得します');
+  debug('スポットID：'.$s_id);
+  // 例外処理
+  try {
+    // DB接続
+    $dbh = dbConnect();
+    // SQL文作成
+    $sql = 'SELECT r.send_date, r.msg, u.user_name FROM review AS r LEFT JOIN users AS u ON r.user_id = u.id WHERE r.spot_id = :s_id';
+    $data = array(':s_id' => $s_id);
+    // クエリ実行
+    $stmt = queryPost($dbh, $sql ,$data);
+
+    if($stmt){
+      return $stmt->fetchAll();
+    }else{
+      return false;
+    }
+
+  } catch (Exception $e) {
     error_log('エラー発生：'.$e->getMessage());
   }
 }
@@ -548,6 +597,14 @@ function pagination($currentPageNum, $totalPageNum, $link = '', $pageColNum = 5)
       }
     echo '</ul>';
   echo '</div>';
+}
+// 画像がないときの表示用関数
+function showImg($path){
+  if(empty($path)){
+    return 'img/sample-img.png';
+  }else{
+    return $path;
+  }
 }
 
 // GETパラメータ付与

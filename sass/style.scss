@@ -365,6 +365,12 @@ main.index{
     }
   }
 }
+.review-area-msg{
+  margin: 15px 0 15px;
+  text-align: left;
+  font-size: 14px;
+  color: red;
+}
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // ボタン
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -427,7 +433,7 @@ input[type="checkbox"]{
     display: flex;
     margin: 0 auto;
     flex-wrap: wrap;
-    width: 80%;
+    width: 100%;
   }
   .card{
     display: flex;
@@ -490,7 +496,8 @@ input[type="checkbox"]{
   color: #707070;
   text-align: left;
   .content{
-    margin: 0px 70px 34px;
+    display: block;
+    margin: 0px 100px 34px;
   }
 }
 .spot-name{
@@ -537,7 +544,7 @@ address{
 }
 .review-count{
   display: block;
-  margin: 18px 0 24px;
+  margin: 50px 0 24px;
   padding: 8px;
   width: 160px;
   border: solid 1px #707070;
@@ -548,6 +555,7 @@ address{
 .review{
   display: flex;
   margin-bottom: 30px;
+  width: 100%;
   .review-name{
     margin: 20px;
   }
