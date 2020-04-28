@@ -39340,3 +39340,1350 @@ Stack trace:
 [04-Apr-2020 06:02:38 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
 [04-Apr-2020 06:02:38 Asia/Tokyo] デバッグ：クエリに成功しました。
 [04-Apr-2020 06:02:38 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：「　トップページ　
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：セッションID：k3qh2ovccp2tgadhr0o11v292d
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+    [msg_success] => 
+    [auth_key] => GdoxnuQW
+    [auth_email] => t02f447f@gmail.com
+    [auth_key_limit] => 1585895161
+    [login_date] => 1585947753
+    [login_limit] => 2592000
+    [user_id] => 4
+)
+
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1586031659
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：ログイン期限日時スタンプ：1588539753
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[05-Apr-2020 05:20:59 Asia/Tokyo] デバッグ：クエリに成功しました。
+[05-Apr-2020 05:21:00 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id LIMIT 6 OFFSET 0
+[05-Apr-2020 05:21:00 Asia/Tokyo] デバッグ：クエリに成功しました。
+[05-Apr-2020 05:21:00 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 34
+    [total_page] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 6
+                    [spot_name] => 蔵王山
+                    [addr] => 山形県山形市
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 奥羽山脈。スキー場がとんでもない広さ。
+                    [user_id] => 4
+                    [pic1] => upload/3fda06c25a8da0d160afd7a63ef9f5ce88cf8213.jpeg
+                    [pic2] => 
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 7
+                    [spot_name] => 蔵王お釡
+                    [addr] => 宮城県
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 火口湖で、五色沼とも呼ばれる。大自然を感じる。
+                    [user_id] => 4
+                    [pic1] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic2] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic3] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+        )
+
+)
+
+[05-Apr-2020 05:21:00 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[05-Apr-2020 05:21:00 Asia/Tokyo] デバッグ：クエリに成功しました。
+[05-Apr-2020 05:21:00 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 06:05:04 Asia/Tokyo] PHP Warning:  require_once(C:\xampp\htdocs\yamagatabipass.php): failed to open stream: No such file or directory in C:\xampp\htdocs\yamagatabi\function.php on line 235
+[28-Apr-2020 06:05:04 Asia/Tokyo] PHP Fatal error:  require_once(): Failed opening required 'C:\xampp\htdocs\yamagatabipass.php' (include_path='C:\xampp\php\PEAR') in C:\xampp\htdocs\yamagatabi\function.php on line 235
+[28-Apr-2020 06:05:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：セッションID：ckp9dgtn88ksvaa4pts73emp8g
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588021547
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Notice:  Undefined variable: dsn in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Notice:  Undefined variable: dsn in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Warning:  Illegal string offset 'user' in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Warning:  Illegal string offset 'password' in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 06:05:47 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'm'@'localhost' (using password: YES)
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 06:05:47 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Notice:  Undefined variable: dsn in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Notice:  Undefined variable: dsn in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Warning:  Illegal string offset 'user' in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Warning:  Illegal string offset 'password' in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 06:05:47 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOException::geMessage() in C:\xampp\htdocs\yamagatabi\function.php:472
+Stack trace:
+#0 C:\xampp\htdocs\yamagatabi\index.php(45): getCategory()
+#1 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\function.php on line 472
+[28-Apr-2020 06:07:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 06:07:12 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 06:07:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 06:07:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 06:07:13 Asia/Tokyo] デバッグ：セッションID：4blqu7nqt9nlb5j89aenl2eb7q
+[28-Apr-2020 06:07:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 06:07:13 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588021633
+[28-Apr-2020 06:07:13 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 06:07:13 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Notice:  Undefined variable: dsn in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Notice:  Undefined variable: dsn in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'user' in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'password' in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 06:07:13 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'm'@'localhost' (using password: YES)
+[28-Apr-2020 06:07:13 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 06:07:13 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Notice:  Undefined variable: dsn in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Notice:  Undefined variable: dsn in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'user' in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Warning:  Illegal string offset 'password' in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 06:07:13 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOException::geMessage() in C:\xampp\htdocs\yamagatabi\function.php:472
+Stack trace:
+#0 C:\xampp\htdocs\yamagatabi\index.php(45): getCategory()
+#1 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\function.php on line 472
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：セッションID：kqqi0eoorlj509dc03rltudgbd
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588021715
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 06:08:35 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 06:08:35 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 06:08:35 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOException::geMessage() in C:\xampp\htdocs\yamagatabi\function.php:472
+Stack trace:
+#0 C:\xampp\htdocs\yamagatabi\index.php(45): getCategory()
+#1 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\function.php on line 472
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：セッションID：skfqikfc38f4k3cjb7h49lqamp
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588030470
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:34:30 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:34:30 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:34:30 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOException::geMessage() in C:\xampp\htdocs\yamagatabi\function.php:472
+Stack trace:
+#0 C:\xampp\htdocs\yamagatabi\index.php(45): getCategory()
+#1 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\function.php on line 472
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：セッションID：m64gi7c9ufn2is1cvsi5n1rg2n
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588030478
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id LIMIT 6 OFFSET 0
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 34
+    [total_page] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 6
+                    [spot_name] => 蔵王山
+                    [addr] => 山形県山形市
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 奥羽山脈。スキー場がとんでもない広さ。
+                    [user_id] => 4
+                    [pic1] => upload/3fda06c25a8da0d160afd7a63ef9f5ce88cf8213.jpeg
+                    [pic2] => 
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 7
+                    [spot_name] => 蔵王お釡
+                    [addr] => 宮城県
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 火口湖で、五色沼とも呼ばれる。大自然を感じる。
+                    [user_id] => 4
+                    [pic1] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic2] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic3] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+        )
+
+)
+
+[28-Apr-2020 08:34:38 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:34:38 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:34:38 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:34:38 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:34:38 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:34:38 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOException::geMessage() in C:\xampp\htdocs\yamagatabi\function.php:472
+Stack trace:
+#0 C:\xampp\htdocs\yamagatabi\index.php(45): getCategory()
+#1 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\function.php on line 472
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：セッションID：1se3fkqct20q31edpn2596jkmq
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588030486
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id LIMIT 6 OFFSET 0
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 34
+    [total_page] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 6
+                    [spot_name] => 蔵王山
+                    [addr] => 山形県山形市
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 奥羽山脈。スキー場がとんでもない広さ。
+                    [user_id] => 4
+                    [pic1] => upload/3fda06c25a8da0d160afd7a63ef9f5ce88cf8213.jpeg
+                    [pic2] => 
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 7
+                    [spot_name] => 蔵王お釡
+                    [addr] => 宮城県
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 火口湖で、五色沼とも呼ばれる。大自然を感じる。
+                    [user_id] => 4
+                    [pic1] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic2] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic3] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+        )
+
+)
+
+[28-Apr-2020 08:34:46 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:34:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:34:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:34:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:34:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:34:46 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOException::geMessage() in C:\xampp\htdocs\yamagatabi\function.php:472
+Stack trace:
+#0 C:\xampp\htdocs\yamagatabi\index.php(45): getCategory()
+#1 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\function.php on line 472
+[28-Apr-2020 08:35:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:35:02 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:35:02 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:35:03 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:35:03 Asia/Tokyo] デバッグ：セッションID：nt0qdknt5dt73k9q0oo3dh9mj9
+[28-Apr-2020 08:35:03 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:35:03 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588030503
+[28-Apr-2020 08:35:03 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:35:03 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:35:03 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:35:03 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:35:03 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:35:03 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOException::geMessage() in C:\xampp\htdocs\yamagatabi\function.php:472
+Stack trace:
+#0 C:\xampp\htdocs\yamagatabi\index.php(45): getCategory()
+#1 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\function.php on line 472
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：セッションID：dlfls540cpjcc3be5nj37uatia
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588030606
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 240
+[28-Apr-2020 08:36:46 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:36:46 Asia/Tokyo] デバッグ：
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 240
+[28-Apr-2020 08:36:46 Asia/Tokyo] PHP Fatal error:  Uncaught Error: Call to undefined method PDOException::geMessage() in C:\xampp\htdocs\yamagatabi\function.php:473
+Stack trace:
+#0 C:\xampp\htdocs\yamagatabi\index.php(45): getCategory()
+#1 {main}
+  thrown in C:\xampp\htdocs\yamagatabi\function.php on line 473
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：セッションID：fl28b09lc8h09o5p90udtjrk66
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588030660
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 240
+[28-Apr-2020 08:37:40 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 240
+[28-Apr-2020 08:37:40 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:37:40 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 67
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\yamagatabi\index.php on line 86
+[28-Apr-2020 08:37:40 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 94
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：セッションID：v9b2etphlpsvopa3l6p32ukdn1
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588030695
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 240
+[28-Apr-2020 08:38:15 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 237
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 240
+[28-Apr-2020 08:38:15 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:38:15 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 67
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\yamagatabi\index.php on line 86
+[28-Apr-2020 08:38:15 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 94
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：セッションID：5qg1sdinlk75irb2epnq5gjj8u
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588030711
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 240
+[28-Apr-2020 08:38:31 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 238
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 239
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Notice:  Undefined variable: dsnData in C:\xampp\htdocs\yamagatabi\function.php on line 240
+[28-Apr-2020 08:38:31 Asia/Tokyo] エラー発生：SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected
+[28-Apr-2020 08:38:31 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 67
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\yamagatabi\index.php on line 86
+[28-Apr-2020 08:38:31 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 94
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：セッションID：uj0i6s9tq39cbjc70ck2gm3e47
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588031377
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:49:37 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:49:37 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[28-Apr-2020 08:49:38 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:49:38 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:49:38 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[28-Apr-2020 08:49:38 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:49:38 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 67
+[28-Apr-2020 08:49:38 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\yamagatabi\index.php on line 86
+[28-Apr-2020 08:49:38 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 94
+[28-Apr-2020 08:49:52 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:49:52 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：セッションID：fdhpte636sj60aao5cki7qi8f3
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588031393
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:49:53 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:49:53 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[28-Apr-2020 08:49:53 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:49:53 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 67
+[28-Apr-2020 08:49:53 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\yamagatabi\index.php on line 86
+[28-Apr-2020 08:49:53 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 94
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：セッションID：jnmhbp81k5qo0q11amcdp91u95
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588031432
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:50:32 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:50:32 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+[28-Apr-2020 08:50:32 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:50:32 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 67
+[28-Apr-2020 08:50:32 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\yamagatabi\index.php on line 86
+[28-Apr-2020 08:50:32 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 94
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：セッションID：bq7ilki55paq3qu31j4t6o2ela
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588031502
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id LIMIT 6 OFFSET 0
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 34
+    [total_page] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 6
+                    [spot_name] => 蔵王山
+                    [addr] => 山形県山形市
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 奥羽山脈。スキー場がとんでもない広さ。
+                    [user_id] => 4
+                    [pic1] => upload/3fda06c25a8da0d160afd7a63ef9f5ce88cf8213.jpeg
+                    [pic2] => 
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 7
+                    [spot_name] => 蔵王お釡
+                    [addr] => 宮城県
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 火口湖で、五色沼とも呼ばれる。大自然を感じる。
+                    [user_id] => 4
+                    [pic1] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic2] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic3] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+        )
+
+)
+
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:51:42 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：セッションID：t19cob3odaav4flf5jf6q05mur
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588031565
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id LIMIT 6 OFFSET 0
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 34
+    [total_page] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 6
+                    [spot_name] => 蔵王山
+                    [addr] => 山形県山形市
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 奥羽山脈。スキー場がとんでもない広さ。
+                    [user_id] => 4
+                    [pic1] => upload/3fda06c25a8da0d160afd7a63ef9f5ce88cf8213.jpeg
+                    [pic2] => 
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 7
+                    [spot_name] => 蔵王お釡
+                    [addr] => 宮城県
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 火口湖で、五色沼とも呼ばれる。大自然を感じる。
+                    [user_id] => 4
+                    [pic1] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic2] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic3] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+        )
+
+)
+
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:52:45 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：セッションID：3rbsrrlv0ocntr4glt8ktfr7jl
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588031567
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id LIMIT 6 OFFSET 0
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 34
+    [total_page] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 6
+                    [spot_name] => 蔵王山
+                    [addr] => 山形県山形市
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 奥羽山脈。スキー場がとんでもない広さ。
+                    [user_id] => 4
+                    [pic1] => upload/3fda06c25a8da0d160afd7a63ef9f5ce88cf8213.jpeg
+                    [pic2] => 
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 7
+                    [spot_name] => 蔵王お釡
+                    [addr] => 宮城県
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 火口湖で、五色沼とも呼ばれる。大自然を感じる。
+                    [user_id] => 4
+                    [pic1] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic2] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic3] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+        )
+
+)
+
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:52:47 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 08:52:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:52:59 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：セッションID：hbl178rb7475baumjalkksg2j5
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588031580
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.cate_id = 1 LIMIT 6 OFFSET 0
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 27
+    [total_page] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 14
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 15
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+        )
+
+)
+
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

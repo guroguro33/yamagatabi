@@ -60,7 +60,7 @@ require('head.php');
     <!-- メインコンテンツ -->
     <main class="index">
       <section class="top-img">
-        <h1><span>山形</span>で<span>旅</span>する</h1>
+        <h1><span>山形</span>で<span>旅</span>しよう。</h1>
       </section>
       <div class="wrap main-content">
         <section class="content">
