@@ -40687,3 +40687,1487 @@ Stack trace:
 [28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
 [28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：クエリに成功しました。
 [28-Apr-2020 08:53:00 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：「　スポット詳細ページ　
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：セッションID：qpldc1h0lb5mcm039utlpku4sa
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034507
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：スポット情報を取得します。
+[28-Apr-2020 09:41:47 Asia/Tokyo] デバッグ：スポットID：1
+[28-Apr-2020 09:41:48 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:41:48 Asia/Tokyo] デバッグ：口コミ情報を取得します
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：スポットID：1
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：取得したスポット情報$spotData:Array
+(
+    [spot_id] => 1
+    [spot_name] => 山寺
+    [addr] => 山形県山形市大字山寺４４５６−１
+    [tel] => 0
+    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+    [pic3] => 
+    [view_count] => 4
+    [category_name] => 景勝地
+)
+
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：取得した口コミ情報：Array
+(
+    [0] => Array
+        (
+            [send_date] => 2020-04-03 14:03:01
+            [msg] => とてもきれい
+            [user_name] => とーる
+        )
+
+    [1] => Array
+        (
+            [send_date] => 2020-04-03 14:03:33
+            [msg] => めっちゃきれい
+            [user_name] => とーる
+        )
+
+    [2] => Array
+        (
+            [send_date] => 2020-04-03 14:24:39
+            [msg] => 登るのが大変です！
+            [user_name] => とーる
+        )
+
+    [3] => Array
+        (
+            [send_date] => 2020-04-03 14:25:31
+            [msg] => たのしい
+おいしい
+うれしい
+たいへん
+            [user_name] => とーる
+        )
+
+)
+
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：スポット詳細画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:41:49 Asia/Tokyo] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\yamagatabi\spotDetail.php on line 100
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：ユーザーID：
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：スポットID：1
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：$resultArray
+(
+    [count(*)] => 0
+)
+
+[28-Apr-2020 09:41:49 Asia/Tokyo] デバッグ：お気に入りではありません
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：セッションID：9k7sf2ajogjg4mhr2cp1vjm4js
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034519
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.cate_id = 1 LIMIT 6 OFFSET 0
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 27
+    [total_page] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 14
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 15
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+        )
+
+)
+
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:41:59 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：セッションID：ncab9rljmodlk8go6tk7bv22po
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034763
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.cate_id = 1 LIMIT 6 OFFSET 0
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 27
+    [total_page] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 14
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 15
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+        )
+
+)
+
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:03 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：「　スポット詳細ページ　
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：セッションID：qvae185ou8bcmrbbjekjihj4r6
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034766
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：スポット情報を取得します。
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：スポットID：3
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：口コミ情報を取得します
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：スポットID：3
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：取得したスポット情報$spotData:Array
+(
+    [spot_id] => 3
+    [spot_name] => 上杉神社
+    [addr] => 山形県米沢市丸の内１丁目４−１３
+    [tel] => 238223189
+    [comment] => 上杉謙信が祭られている神社
+    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+    [view_count] => 2
+    [category_name] => 景勝地
+)
+
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：取得した口コミ情報：Array
+(
+    [0] => Array
+        (
+            [send_date] => 2020-04-03 14:11:11
+            [msg] => 上杉謙信の銅像がある
+            [user_name] => とーる
+        )
+
+    [1] => Array
+        (
+            [send_date] => 2020-04-03 14:26:12
+            [msg] => 上杉鷹山の銅像がある
+            [user_name] => とーる
+        )
+
+)
+
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：スポット詳細画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:46:06 Asia/Tokyo] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\yamagatabi\spotDetail.php on line 100
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：ユーザーID：
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：スポットID：3
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：$resultArray
+(
+    [count(*)] => 0
+)
+
+[28-Apr-2020 09:46:06 Asia/Tokyo] デバッグ：お気に入りではありません
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：セッションID：oitm37ohobhstp32ma3prmgdga
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034768
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.cate_id = 1 LIMIT 6 OFFSET 0
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 27
+    [total_page] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 14
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 15
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+        )
+
+)
+
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:08 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：「　スポット詳細ページ　
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：セッションID：jstk7c10q2civrbl8gt6bjg5k3
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034770
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：スポット情報を取得します。
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：スポットID：3
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：口コミ情報を取得します
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：スポットID：3
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：取得したスポット情報$spotData:Array
+(
+    [spot_id] => 3
+    [spot_name] => 上杉神社
+    [addr] => 山形県米沢市丸の内１丁目４−１３
+    [tel] => 238223189
+    [comment] => 上杉謙信が祭られている神社
+    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+    [view_count] => 2
+    [category_name] => 景勝地
+)
+
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：取得した口コミ情報：Array
+(
+    [0] => Array
+        (
+            [send_date] => 2020-04-03 14:11:11
+            [msg] => 上杉謙信の銅像がある
+            [user_name] => とーる
+        )
+
+    [1] => Array
+        (
+            [send_date] => 2020-04-03 14:26:12
+            [msg] => 上杉鷹山の銅像がある
+            [user_name] => とーる
+        )
+
+)
+
+[28-Apr-2020 09:46:10 Asia/Tokyo] デバッグ：スポット詳細画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:46:11 Asia/Tokyo] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\yamagatabi\spotDetail.php on line 100
+[28-Apr-2020 09:46:11 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[28-Apr-2020 09:46:11 Asia/Tokyo] デバッグ：ユーザーID：
+[28-Apr-2020 09:46:11 Asia/Tokyo] デバッグ：スポットID：3
+[28-Apr-2020 09:46:11 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:11 Asia/Tokyo] デバッグ：$resultArray
+(
+    [count(*)] => 0
+)
+
+[28-Apr-2020 09:46:11 Asia/Tokyo] デバッグ：お気に入りではありません
+[28-Apr-2020 09:46:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:12 Asia/Tokyo] デバッグ：「　Ajax　
+[28-Apr-2020 09:46:12 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:12 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:46:12 Asia/Tokyo] デバッグ：セッションID：q8b3selk3hn18pdj1ulaah22c8
+[28-Apr-2020 09:46:12 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:46:12 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034772
+[28-Apr-2020 09:46:12 Asia/Tokyo] デバッグ：Ajax処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:46:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:13 Asia/Tokyo] デバッグ：「　Ajax　
+[28-Apr-2020 09:46:13 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:13 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:46:13 Asia/Tokyo] デバッグ：セッションID：slmn4lui33dliv8brt3a3dhll6
+[28-Apr-2020 09:46:13 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:46:14 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034774
+[28-Apr-2020 09:46:14 Asia/Tokyo] デバッグ：Ajax処理終了<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：セッションID：rivnchlc70fupbbkrlj7trim15
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588034775
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.cate_id = 1 LIMIT 6 OFFSET 0
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 27
+    [total_page] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 14
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 15
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+        )
+
+)
+
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:46:15 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：セッションID：9dolvln2i4uv4vmcre7ben0ro7
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588035596
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.cate_id = 1 LIMIT 6 OFFSET 0
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 27
+    [total_page] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 14
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 15
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+        )
+
+)
+
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 09:59:56 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：「　スポット詳細ページ　
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：セッションID：aqejhu36pr02r6eoanqtg1as4i
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588035601
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：スポット情報を取得します。
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：スポットID：5
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：口コミ情報を取得します
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：スポットID：5
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：取得したスポット情報$spotData:Array
+(
+    [spot_id] => 5
+    [spot_name] => 文翔館
+    [addr] => 山形県山形市旅篭町３丁目４−５１
+    [tel] => 236355500
+    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+    [pic3] => 
+    [view_count] => 1
+    [category_name] => 景勝地
+)
+
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：取得した口コミ情報：Array
+(
+    [0] => Array
+        (
+            [send_date] => 2020-04-03 14:30:14
+            [msg] => 元県庁舎。綺麗ですよ
+            [user_name] => とーる
+        )
+
+)
+
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：スポット詳細画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 10:00:01 Asia/Tokyo] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\yamagatabi\spotDetail.php on line 100
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：ユーザーID：
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：スポットID：5
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：$resultArray
+(
+    [count(*)] => 0
+)
+
+[28-Apr-2020 10:00:01 Asia/Tokyo] デバッグ：お気に入りではありません
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：セッションID：n1bcghugio4c6kfojqju6ne219
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588035604
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.cate_id = 1 LIMIT 6 OFFSET 0
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 27
+    [total_page] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 14
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 15
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+        )
+
+)
+
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:04 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：「　スポット詳細ページ　
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：セッションID：1hbffom4lh584m4qr2rj9bvpu3
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588035606
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：スポット情報を取得します。
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：スポットID：15
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：口コミ情報を取得します
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：スポットID：15
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：取得したスポット情報$spotData:Array
+(
+    [spot_id] => 15
+    [spot_name] => 山寺
+    [addr] => 山形県山形市大字山寺４４５６−１
+    [tel] => 0
+    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+    [pic3] => 
+    [view_count] => 0
+    [category_name] => 景勝地
+)
+
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：取得した口コミ情報：Array
+(
+)
+
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：スポット詳細画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 10:00:06 Asia/Tokyo] PHP Notice:  Undefined index: user_id in C:\xampp\htdocs\yamagatabi\spotDetail.php on line 100
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：お気に入り情報があるか確認します。
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：ユーザーID：
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：スポットID：15
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：$resultArray
+(
+    [count(*)] => 0
+)
+
+[28-Apr-2020 10:00:06 Asia/Tokyo] デバッグ：お気に入りではありません
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：セッションID：cjj3l92stqnh5l84d7jok1ut5m
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588035610
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id WHERE s.cate_id = 1 LIMIT 6 OFFSET 0
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 27
+    [total_page] => 5
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 14
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 15
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+        )
+
+)
+
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:00:10 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 10:02:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:02:28 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 10:02:28 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:02:28 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 10:02:28 Asia/Tokyo] デバッグ：セッションID：061quhjclqghgm45jtc2190do2
+[28-Apr-2020 10:02:28 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 10:02:29 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588035749
+[28-Apr-2020 10:02:29 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 10:02:29 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 10:02:50 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] �ڑ��ς݂̌Ăяo���悪���̎��Ԃ��߂��Ă��������������Ȃ��������߁A�ڑ��ł��܂���ł����B�܂��͐ڑ��ς݂̃z�X�g���������Ȃ��������߁A�m�����ꂽ�ڑ��͎��s���܂����B
+
+[28-Apr-2020 10:02:50 Asia/Tokyo] デバッグ：取得した商品データ：
+[28-Apr-2020 10:02:50 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 10:03:11 Asia/Tokyo] エラー発生：SQLSTATE[HY000] [2002] �ڑ��ς݂̌Ăяo���悪���̎��Ԃ��߂��Ă��������������Ȃ��������߁A�ڑ��ł��܂���ł����B�܂��͐ڑ��ς݂̃z�X�g���������Ȃ��������߁A�m�����ꂽ�ڑ��͎��s���܂����B
+
+[28-Apr-2020 10:03:11 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[28-Apr-2020 10:03:11 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 67
+[28-Apr-2020 10:03:11 Asia/Tokyo] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in C:\xampp\htdocs\yamagatabi\index.php on line 86
+[28-Apr-2020 10:03:11 Asia/Tokyo] PHP Warning:  Invalid argument supplied for foreach() in C:\xampp\htdocs\yamagatabi\index.php on line 94
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：「　トップページ　
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「「
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> 画面表示処理開始
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：セッションID：lnd3lmu82nvpctr99l5l9tbvsr
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：セッション変数の中身:Array
+(
+)
+
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：現在日時タイムスタンンプ1588036366
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：$currentPageNumの値：1
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：スポットリスト情報を取得します。
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：SQL文：SELECT * FROM spot AS s LEFT JOIN category AS c ON s.cate_id = c.cate_id LIMIT 6 OFFSET 0
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：取得した商品データ：Array
+(
+    [total] => 34
+    [total_page] => 6
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [spot_id] => 1
+                    [spot_name] => 山寺
+                    [addr] => 山形県山形市大字山寺４４５６−１
+                    [tel] => 0
+                    [cate_id] => 1
+                    [comment] => 天台宗の仏教寺院。松尾芭蕉が「閑さや岩にしみ入る蝉の声」と詠んだ句が有名。
+                    [user_id] => 4
+                    [pic1] => upload/ec885a0dff685f103b4e1b8a75d01329b778cd08.jpeg
+                    [pic2] => upload/46ced6db7d22821ce7c50955b9d35b927b1d2cba.jpeg
+                    [pic3] => 
+                    [view_count] => 4
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [1] => Array
+                (
+                    [spot_id] => 3
+                    [spot_name] => 上杉神社
+                    [addr] => 山形県米沢市丸の内１丁目４−１３
+                    [tel] => 238223189
+                    [cate_id] => 1
+                    [comment] => 上杉謙信が祭られている神社
+                    [user_id] => 4
+                    [pic1] => upload/d0608ff0bfe5600bffe1f1f1cea7268d0ae9699c.jpeg
+                    [pic2] => upload/afffcbf6bceb29ee0e482a94c24438dbb57c2fce.jpeg
+                    [pic3] => upload/ac1dfb0d15221a88e2ea0c957704a729fd8d8387.jpeg
+                    [view_count] => 2
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [2] => Array
+                (
+                    [spot_id] => 4
+                    [spot_name] => 霞城公園
+                    [addr] => 山形県山形市霞城町１−番７号
+                    [tel] => 236411212
+                    [cate_id] => 1
+                    [comment] => 霞城公園は、市街地のほぼ中央に位置し、約35．9haの面積を有する山形城跡を整備した都市公園です。
+延文元年（1356）に羽州探題として山形に入部した斯波兼頼（最上家初代）が築城したのが始まりと伝えられ、現在の城郭は第11代城主最上義光（1546～1614）が築いたものが原型です。
+                    [user_id] => 4
+                    [pic1] => upload/e296c34299626da2eb4ce83d2b6fb183b93c602a.jpeg
+                    [pic2] => upload/7148b9abcf07c33a33d140412600a1cc545226a2.jpeg
+                    [pic3] => 
+                    [view_count] => 0
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [3] => Array
+                (
+                    [spot_id] => 5
+                    [spot_name] => 文翔館
+                    [addr] => 山形県山形市旅篭町３丁目４−５１
+                    [tel] => 236355500
+                    [cate_id] => 1
+                    [comment] => 文翔館は、山形県山形市の中心部にある国の重要文化財「山形県旧県庁舎及び県会議事堂」を修復・利活用している施設の愛称。
+                    [user_id] => 4
+                    [pic1] => upload/58cbd1d8bc7a4f00ecac7b5c3e2bb7ce7ed79876.jpeg
+                    [pic2] => upload/f3128bfaef3e1691786f7fb5692e7c72856b683a.jpeg
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 景勝地
+                )
+
+            [4] => Array
+                (
+                    [spot_id] => 6
+                    [spot_name] => 蔵王山
+                    [addr] => 山形県山形市
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 奥羽山脈。スキー場がとんでもない広さ。
+                    [user_id] => 4
+                    [pic1] => upload/3fda06c25a8da0d160afd7a63ef9f5ce88cf8213.jpeg
+                    [pic2] => 
+                    [pic3] => 
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+            [5] => Array
+                (
+                    [spot_id] => 7
+                    [spot_name] => 蔵王お釡
+                    [addr] => 宮城県
+                    [tel] => 0
+                    [cate_id] => 2
+                    [comment] => 火口湖で、五色沼とも呼ばれる。大自然を感じる。
+                    [user_id] => 4
+                    [pic1] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic2] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [pic3] => upload/77dd46e99bd53bbe299c921a1a8cb3209f6e147e.jpeg
+                    [view_count] => 1
+                    [delete_flg] => 0
+                    [create_date] => 0000-00-00 00:00:00
+                    [update_date] => 2020-04-02 09:25:59
+                    [category_name] => 自然
+                )
+
+        )
+
+)
+
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：カテゴリ情報を取得します。
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：クエリに成功しました。
+[28-Apr-2020 10:12:46 Asia/Tokyo] デバッグ：トップページ画面表示処理終了 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
