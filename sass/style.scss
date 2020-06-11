@@ -22,7 +22,23 @@ body {
 
 .wrap{
   margin: 0 auto;
-  width: 1024px;
+  max-width: 1024px;
+}
+
+// ==============================
+// ブレイクポイント
+// ==============================
+$breakpoints: (
+  'sm': 'screen and (max-width: 576px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 992px)',
+  'xl': 'screen and (max-width: 1200x)',
+) !default;
+
+@mixin mq($breakpoint: sm){
+  @media #{map-get($breakpoints, $breakpoint)}{
+    @content;
+  }
 }
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

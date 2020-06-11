@@ -7,7 +7,6 @@ html, body, div, span, iframe, h1, h3, h3, h4, h5, p, a, img, ul, ol, li, dt, dd
   list-style: none;
   text-decoration: none;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -24,7 +23,7 @@ body {
 
 .wrap {
   margin: 0 auto;
-  width: 1024px;
+  max-width: 1024px;
 }
 
 header {
@@ -33,9 +32,13 @@ header {
 }
 
 header .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   height: 100px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header .logo {
@@ -43,8 +46,12 @@ header .logo {
 }
 
 header .logo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-size: 20px;
   color: #707070;
 }
@@ -54,6 +61,8 @@ header .logo a img {
 }
 
 header .nav-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -74,10 +83,14 @@ h3 {
 }
 
 .mypage-menu .menu-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   width: 700px;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   background: #F2F2F2;
 }
 
@@ -177,17 +190,24 @@ main.index {
 }
 
 .main-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 50px auto;
 }
 
 .main-content .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 80%;
 }
 
 .main-content .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -233,8 +253,12 @@ main.index {
 }
 
 .pagination ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   font-size: 22px;
 }
 
@@ -349,6 +373,8 @@ main.index {
 }
 
 .form-container .area-pic {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 }
 
@@ -388,7 +414,8 @@ main.index {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+          transform: translateX(-50%) translateY(-50%);
   width: auto;
   height: 100%;
 }
@@ -454,14 +481,19 @@ input[type="checkbox"] {
 }
 
 .mypage-content .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0 auto;
   padding: 0 10%;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 100%;
 }
 
 .mypage-content .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -522,6 +554,8 @@ input[type="checkbox"] {
 }
 
 .spot-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 50px;
   background: #F2F2F2;
@@ -535,6 +569,8 @@ input[type="checkbox"] {
 }
 
 .spot-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 15px;
   margin-bottom: 20px;
@@ -563,6 +599,8 @@ input[type="checkbox"] {
 }
 
 .picture {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 47px;
 }
@@ -586,6 +624,8 @@ address {
 }
 
 address .addr-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 19px;
 }
@@ -610,6 +650,8 @@ address .addr-container .comment-txt {
 }
 
 .review {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-bottom: 30px;
   width: 100%;
@@ -676,3 +718,4 @@ address .addr-container .comment-txt {
   line-height: 60px;
   color: #404040;
 }
+/*# sourceMappingURL=style.css.map */

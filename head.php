@@ -11,7 +11,7 @@
     <!-- font awesome -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
 		<!-- CSS -->
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="sass/style.css">
 		<!-- googleフォント -->
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP&display=swap" rel="stylesheet">
 		
