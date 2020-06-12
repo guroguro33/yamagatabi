@@ -136,14 +136,14 @@ require('head.php');
             <?php echo getErrMsg('username'); ?>
           </div>
           <label class="<?php if(!empty($err_msg['tel'])) echo 'err'; ?>">
-            <p>電話番号<span style="font-size:12px;margin-left:5px;">※ハイフン無しでご入力ください</span></p>
+            <p>電話番号<br><span style="font-size:12px;margin-left:5px;">※ハイフン無しでご入力ください</span></p>
             <input type="text" name="tel" value="<?php echo getFormData('tel'); ?>">
           </label>
           <div class="area-msg">
             <?php echo getErrMsg('tel'); ?>
           </div>
           <label class="<?php if(!empty($err_msg['zip'])) echo 'err'; ?>">
-            <p>郵便番号<span style="font-size:12px;margin-left:5px;">※ハイフン無しでご入力ください</span></p>
+            <p>郵便番号<br><span style="font-size:12px;margin-left:5px;">※ハイフン無しでご入力ください</span></p>
             <input type="text" name="zip" value="<?php echo (empty(getFormData('zip'))) ? '': getFormData('zip'); ?>">
           </label>
           <div class="area-msg">

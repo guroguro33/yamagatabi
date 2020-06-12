@@ -51,7 +51,7 @@ require('head.php');
             <li class="list-item"><a href="spotEdit.php">おすすめスポット投稿</a></li>
             <li class="list-item"><a href="profEdit.php">プロフィール編集</a></li>
             <li class="list-item"><a href="passEdit.php">パスワード変更</a></li>
-            <li class="list-item"><a href="withdraw.php">退会</a></li>
+            <li class="list-item"><a href="withdraw.php" class="mr-0">退会</a></li>
           </ul>
         </div>
       </section>

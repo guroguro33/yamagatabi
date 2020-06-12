@@ -20,9 +20,97 @@ body {
   font-family: "Noto Sans JP", "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 
+// ==============================
+// ブレイクポイント
+// ==============================
+$breakpoints: (
+  'sm': 'screen and (max-width: 576px)',
+  'md': 'screen and (max-width: 768px)',
+  'lg': 'screen and (max-width: 992px)',
+  'xl': 'screen and (max-width: 1200x)',
+) !default;
+
+@mixin mq($breakpoint: sm){
+  @media #{map-get($breakpoints, $breakpoint)}{
+    @content;
+  }
+}
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// 共通
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+body{
+  @include mq(sm){
+    font-size: 12px;
+  }
+}
 .wrap{
   margin: 0 auto;
   width: 1024px;
+  max-width: 100%;
+  @include mq(lg){
+    padding: 0 20px;
+  }
+  @include mq(sm){
+    width: auto;
+  }
+}
+.card{
+  display: flex;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding: 15px;
+  width: calc(50% - 30px);
+  max-height: 160px;
+  height: 100%;
+  border: solid 1px #707070;
+  @include mq(md){
+    margin-right: 0px;
+    margin-bottom: 15px;
+    width: 100%;
+    min-height: 150px;
+    justify-content: center;
+    align-items: center;
+  }
+  .spot-img{
+    margin: auto 10px auto 0;
+    width: 60%;
+    @include mq(md){
+      margin: 0 10px 0 0;
+      width: auto;
+    }
+  }
+  img{
+    max-width: 100%;
+    max-height: 130px;
+    height: auto;
+    vertical-align: bottom;
+  }
+  .desc{
+    p{
+      margin-bottom: 5px;
+      font-size: 14px;
+      color: #707070;
+      @include mq(lg){
+        font-size: 14px;
+      }
+    }
+    .spot-name{
+      font-size: 20px;
+      @include mq(lg){
+        font-size: 18px;
+      }
+    }
+    .review-count{
+      margin-top: 18px;
+      padding: 3px;
+      border: solid 1px #707070;
+      border-radius: 5px;
+      font-size: 12px;
+      // @include mq(lg){
+      //   font-size: 12px;
+      // }
+    }
+  }
 }
 
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
@@ -31,10 +119,16 @@ body {
 header{
   height: 100px;
   background: #F2F2F2;
+  @include mq(sm){
+    height: 60px;
+  }
   .wrap{
     display: flex;
     height: 100px;
     align-items: center;
+    @include mq(sm){
+      height: 60px;
+    }
   }
   .logo{
     margin-right: auto;
@@ -43,16 +137,35 @@ header{
       align-items: center;
       font-size: 20px;
       color: #707070;
+      @include mq(lg){
+        font-size: 16px;
+      }
+      @include mq(md){
+        display: block;
+        font-size: 10px;
+      }
       img{
         margin-right: 10px;
+        @include mq(lg){
+          width: 150px; 
+        }
+        @include mq(lg){
+          width: 100px; 
+        }
       }
     }
   }
   .nav-menu{
     ul{
       display: flex;
+      @include mq(sm){
+        font-size: 10px;
+      }
       li:not(:last-of-type){
         margin-right: 50px;
+        @include mq(sm){
+          margin-right: 20px;
+        }
       }
       a{
         color: #707070;
@@ -67,7 +180,7 @@ header{
 h3{
   margin-bottom: 30px;
   padding-top: 40px;
-  font-size: 24px;
+  font-size: 22px;
   font-weight: 600;
   color: black;
 }
@@ -78,11 +191,17 @@ h3{
     width: 700px;
     justify-content: center;
     background: #F2F2F2;
+    @include mq(sm){
+      width: 100%;
+    }
   }
   a{
     margin-right: 30px;
-    font-size: 18px;
     color: black;
+    @include mq(sm){
+      margin-right: 10px;
+      font-size: 10px;
+    }
     &:hover{
       opacity: 0.6;
     }
@@ -95,6 +214,14 @@ h3{
   padding: 33px 13px;
   width: 20%;
   background: #DAD9D9;
+  @include mq(md){
+    width: 30%;
+  }
+  @include mq(sm){
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+  }
   .count{
     margin-bottom: 20px;
     color: #707070;
@@ -105,9 +232,15 @@ h3{
   }
   .count-page{
     font-size: 16px;
+    @include mq(lg){
+      font-size: 14px;
+    }
   }
   .sort{
     color: #707070;
+    @include mq(lg){
+      font-size: 14px;
+    }
     p{
       margin-bottom: 10px;
     }
@@ -115,6 +248,10 @@ h3{
       margin-bottom: 20px;
       width: 150px;
       height: 32px;
+      @include mq(lg){
+        width: 120px;
+        font-size: 12px;
+      }
     }
     input{
       display: block;
@@ -123,6 +260,12 @@ h3{
       border: solid 1px #707070;
       border-radius: 10px;
       cursor: pointer;
+      @include mq(lg){
+        padding: 5px 40px;
+      }
+      @include mq(sm){
+        margin: 0 auto;
+      }
       &:hover{
         background: #707070;
         color: #F2F2F2;
@@ -155,13 +298,23 @@ footer{
   background-size: cover;
   text-align: center;
   color: #FAFAFA;
+  @include mq(sm){
+    height: 150px;
+  }
   h1{
     line-height: 200px;
     font-size: 28px;
     font-weight: 700;
     letter-spacing: 2.1px;
+    @include mq(sm){
+      line-height: 150px;
+      font-size: 20px;
+    }
     span{
       font-size: 80px;
+      @include mq(sm){
+        font-size: 30px;
+      }
     }
   }
 }
@@ -174,47 +327,23 @@ main.index{
 .main-content{
   display: flex;
   margin: 50px auto;
+  @include mq(sm){
+    display: block;
+    margin: 50px 0;
+    width: 100%;
+  }
   .content{
     display: flex;
     flex-wrap: wrap;
     width: 80%;
+    @include mq(md){
+      padding-right: 20px;
+    }
+    @include mq(sm){
+    padding: 0 10%;
+    justify-content: center;
+    width: 100%;
   }
-  .card{
-    display: flex;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    padding: 15px;
-    width: calc(50% - 30px);
-    max-height: 160px;
-    height: 100%;
-    border: solid 1px #707070;
-    .spot-img{
-      margin-right: 5px;
-      width: 60%;
-    }
-    img{
-      width: 100%;
-      max-height: 130px;
-      height: auto;
-      vertical-align: bottom;
-    }
-    .desc{
-      p{
-        margin-bottom: 5px;
-        font-size: 16px;
-        color: #707070;
-      }
-      .spot-name{
-        font-size: 22px;
-      }
-      .review-count{
-        margin-top: 18px;
-        padding: 3px;
-        border: solid 1px #707070;
-        border-radius: 5px;
-        font-size: 14px;
-      }
-    }
   }
 }
 // ページネーション
@@ -223,7 +352,10 @@ main.index{
   ul{
     display: flex;
     justify-content: center;
-    font-size: 22px;
+    font-size: 18px;
+    @include mq(lg){
+      font-size: 16px;
+    }
     a{
       padding: 3px 10px;
       border: solid 1px #707070;
@@ -256,9 +388,16 @@ main.index{
     width: 100%;
     background: #eeeeee;
     border-radius: 25px;
+    @include mq(sm){
+      padding: 10px 30px 30px;
+      max-width: fit-content;
+    }
     h2{
-      margin-bottom: 15px;
-      font-size: 32px;
+      margin-bottom: 32px;
+      font-size: 22px;
+      @include mq(md){
+        font-size: 18px;
+      }
     }
     p{
       margin-bottom: 20px;
@@ -267,11 +406,20 @@ main.index{
   .spot-form{
     max-width: 600px;
     padding: 10px 30px 30px;
+    @include mq(sm){
+      max-width: fit-content;
+      }
     p{
       margin: 0 100px 20px;
+      @include mq(sm){
+        margin: 0 0 20px;
+      }
     }
     input[type="text"],input[type="password"],select{
       margin: 0 100px 20px;
+      @include mq(sm){
+        margin: 0 0 20px;
+      }
     }
     .area-msg{
       margin-bottom: 0;
@@ -283,13 +431,19 @@ main.index{
     text-align: left;
     font-size: 14px;
     color: red;
+    @include mq(md){
+      font-size: 10px;
+    }
   }
   label{
     p{
       position: relative;
       margin-bottom: 10px;
       text-align: left;
-      font-size: 18px;
+      font-size: 16px;
+      @include mq(md){
+        font-size: 14px;
+      }
     }
     .require::after{
       content: "必須";
@@ -310,6 +464,9 @@ main.index{
       height: 40px;
       border: 0.5px solid #707070;
       border-radius: 10px;
+      @include mq(sm){
+        width: 100%;;
+      }
     }
     textarea{
       padding: 5px 10px;
@@ -317,6 +474,9 @@ main.index{
       height: 80px;
       border: 0.5px solid #707070;
       border-radius: 10px;
+      @include mq(sm){
+        width: 100%;
+      }
     }
   }
   label.err input,
@@ -326,11 +486,19 @@ main.index{
   // 画像アップロード
   .area-pic{
     display: flex;
+    @include mq(sm){
+      flex-direction: column;
+    }
   }
   .imgDrop-container{
     padding-right: 15px;
     width: 33.33%;
     text-align: left;
+    @include mq(sm){
+      margin: 0 auto 10px;
+      padding-right: 0;
+      width: 80%;
+    }
     &:last-child{
       padding-right: 0;
     }
@@ -364,6 +532,12 @@ main.index{
   
     }
   }
+  br{
+    display: none;
+    @include mq(sm){
+      display: block;
+    }
+  }
 }
 .review-area-msg{
   margin: 15px 0 15px;
@@ -381,7 +555,7 @@ main.index{
   height: 40px;
   background: #ccc;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 16px;
   color: #707070;
   &:hover{
     background: #707070;
@@ -421,6 +595,9 @@ input[type="checkbox"]{
 .withdraw-msg{
   margin-bottom: 50px;
   font-size: 20px;
+  @include mq(sm){
+    font-size: 14px;
+  }
 }
 // >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 // mypage
@@ -437,47 +614,11 @@ input[type="checkbox"]{
     flex-wrap: wrap;
     width: 100%;
   }
-  .card{
-    display: flex;
-    margin-right: 30px;
-    margin-bottom: 30px;
-    padding: 15px;
-    width: calc(50% - 30px);
-    max-height: 160px;
-    height: 100%;
-    border: solid 1px #707070;
-    &:nth-child(2n){
-      margin-right: 0;
-    }
-    .spot-img{
-      margin-right: 5px;
-      width: 60%;
-    }
-    img{
-      width: 100%;
-      max-height: 130px;
-      height: auto;
-      vertical-align: bottom;
-    }
-    .desc{
-      p{
-        margin-bottom: 5px;
-        font-size: 16px;
-        text-align: left;
-        color: #707070;
-      }
-      .spot-name{
-        font-size: 22px;
-      }
-      .review-count{
-        margin-top: 18px;
-        padding: 3px;
-        border: solid 1px #707070;
-        border-radius: 5px;
-        font-size: 14px;
-        text-align: center;
-      }
-    }
+  .card:nth-of-type(2n){
+    margin-right: 0;
+  }
+  .category{
+    text-align: left;
   }
 } 
 
@@ -487,6 +628,9 @@ input[type="checkbox"]{
 .prev{
   margin: 30px auto;
   text-align: left;
+  @include mq(sm){
+    margin: 15px auto;
+  }
   a{
     color: #707070;
     &:hover{
@@ -500,9 +644,15 @@ input[type="checkbox"]{
   background: #F2F2F2;
   color: #707070;
   text-align: left;
+  @include mq(sm){
+    margin: 0 20px 20px;
+  }
   .content{
     display: block;
     margin: 0px 100px 34px;
+    @include mq(sm){
+      margin: 0 0 34px;
+    }
   }
 }
 .spot-name{
@@ -538,6 +688,9 @@ input[type="checkbox"]{
     padding-right: 40px;
     width: 33.33%;
     text-align: left;
+    @include mq(lg){
+      padding-right: 15px;
+    }
     img{
       width: 100%;
     }
@@ -560,11 +713,15 @@ address{
   display: block;
   margin: 50px 0 24px;
   padding: 8px;
-  width: 160px;
+  width: 140px;
   border: solid 1px #707070;
   border-radius: 5px;
   font-size: 16px;
   text-align: center;
+  @include mq(lg){
+    width: 110px;
+    font-size: 14px;
+  }
 }
 .review{
   display: flex;
@@ -572,6 +729,9 @@ address{
   width: 100%;
   .review-name{
     margin: 20px;
+    @include mq(sm){
+      margin: 5px;
+    }
   }
   .review-txt{
     position: relative;
@@ -626,4 +786,9 @@ address{
   font-size: 18px;
   line-height: 60px;
   color: #404040;
+  @include mq(sm){
+    height: 30px;
+    font-size: 12px;
+    line-height: 30px;
+  }
 }
