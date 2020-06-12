@@ -667,6 +667,9 @@ input[type="checkbox"]{
     margin: 0;
     font-size: 28px;
     line-height: 60px;
+    @include mq(sm){
+      font-size: 18px;
+    }
   }
   .icn-favorite{
     line-height: 60px;

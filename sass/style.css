@@ -864,6 +864,12 @@ input[type="checkbox"] {
   line-height: 60px;
 }
 
+@media screen and (max-width: 576px) {
+  .spot-name h2 {
+    font-size: 18px;
+  }
+}
+
 .spot-name .icn-favorite {
   line-height: 60px;
   font-size: 26px;
