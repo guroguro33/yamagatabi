@@ -11,7 +11,7 @@ ini_set('error_log','php.log');
 // デバッグ
 //================================
 //デバッグフラグ
-$debug_flg = true;
+$debug_flg = false;
 function debug($str){
   global $debug_flg;
   if($debug_flg){
@@ -233,23 +233,7 @@ function isLogin(){
 // DB接続関数
 // 外部からの読込み
 require_once dirname(__FILE__) . '/dsn.php';
-// function dbConnect(){
-//   $dsn = 'mysql:dbname=yamagatabi;host=localhost;charset=utf8';
-//   $user = 'root';
-//   $password = 'root';
-//   $options = array(
-//     // SQL実行失敗時には例外を投げる設定
-//     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-//     // デフォルトフェッチモードを連想配列形式に設定
-//     PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
-//     // バッファモードクエリを使う
-//     // SELECTで得た結果に対してもrowCountメソッドを使えるようにする
-//     PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => true,
-//   );
-//   // PDOオブジェクト生成（DB接続）
-//   $dbh = new PDO($dsn, $user, $password, $options);
-//   return $dbh;
-// }
+
 // SQL実行関数
 function queryPost($dbh, $sql, $data){
   // クエリー作成

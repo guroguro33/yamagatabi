@@ -132,7 +132,8 @@ require('head.php');
           <div class="area-msg">
             <?php echo getErrMsg('common'); ?>
           </div>
-          <p>ご登録のメールアドレス宛に送信したメール内にある<br>認証キーを入力し、パスワードを再発行してください。</p>
+          <p>ご登録のメールアドレス宛に送信したメール内にある
+            認証キーを入力し、パスワードを再発行してください。</p>
           <label class="<?php if(!empty($err_msg)) echo 'err'; ?>">
             <p>認証キー</p>
             <input type="text" name="token" value="<?php echo getFormData('token'); ?>">

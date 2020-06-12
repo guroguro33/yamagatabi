@@ -122,7 +122,7 @@ require('head.php');
             <?php echo getErrMsg('email'); ?>
           </div>
           <label class="<?php if(!empty($err_msg['pass'])) echo 'err'; ?>">
-            <p class="require">パスワード<span style="font-size:12px">※英数字６文字以上</span></p>
+            <p class="require">パスワード<br><span style="font-size:12px">※英数字６文字以上</span></p>
             <input type="password" name="pass" value="<?php if(!empty($_POST['pass'])) echo $_POST['pass']; ?>">
           </label>
           <div class="area-msg">

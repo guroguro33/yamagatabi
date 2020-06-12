@@ -141,7 +141,7 @@ require('head.php');
             <?php echo getErrMsg('pass_old');  ?>
           </div>
           <label class="<?php if(!empty($err_msg['pass_new'])) echo 'err'; ?>">
-            <p>新しいパスワード<span style="font-size: 12px;">※英数字６文字以上</span></p>
+            <p>新しいパスワード<br><span style="font-size: 12px;">※英数字６文字以上</span></p>
             <input type="password" name="pass_new" value="<?php echo getFormData('pass_new'); ?>">
           </label>
           <div class="area-msg">
