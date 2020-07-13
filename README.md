@@ -5,6 +5,12 @@
 フルスクラッチのphpで作成した山形のおすすめスポットを紹介するサイトです。
 [デモページ](https://kurosuke-web.com/yamagatabi/)
 
+デモサイトでご利用ください
+
+ログインID：test@example.com
+
+パスワード：password
+
 ## 画面イメージ ##
  
 ![TOPイメージ](https://user-images.githubusercontent.com/48667277/87264355-be316e00-c4fa-11ea-8acb-c82e15053005.png)
@@ -32,12 +38,6 @@
 - sass
  
 ## 使い方
-
-デモサイトでご利用ください
-
-ログインID：test@example.com
-
-パスワード：password
 
 ### ログインしなくてもスポットの詳細ページや口コミを閲覧できます
 
